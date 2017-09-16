@@ -12,6 +12,7 @@ using Android.Widget;
 using PasswordKeeper.Adapters;
 using PasswordKeeper.Core.Models;
 using PasswordKeeper.Core.Repository;
+using SQLite;
 
 namespace PasswordKeeper
 {
@@ -28,8 +29,10 @@ namespace PasswordKeeper
             SetContentView(Resource.Layout.PasswordListView);
             passwordList = FindViewById<ListView>(Resource.Id.passwordListViewli);
 
+            var db = new SQLiteConnection(AddPasswordActivity.dbPath);
+            var table = db.Table<Password>();
 
-            items = PasswordRepository.GetAllPasswords();
+            items = table.AsParallel().ToList();
             passwordList.Adapter = new PasswordListAdapter(items, this);
 
             passwordList.ItemClick += PasswordList_ItemClick;
