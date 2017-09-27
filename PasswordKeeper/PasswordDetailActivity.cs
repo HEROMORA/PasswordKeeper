@@ -24,6 +24,7 @@ namespace PasswordKeeper
         private TextView PasswordTextView;
         private Button RevealButton;
         private Button CopyButton;
+        private Button DeleteButton;
         private Password selectedPassword;
 
         protected override void OnCreate(Bundle savedInstanceState)
@@ -52,6 +53,7 @@ namespace PasswordKeeper
             PasswordTextView = FindViewById<TextView>(Resource.Id.passwordTextView);
             RevealButton = FindViewById<Button>(Resource.Id.revealButton);
             CopyButton = FindViewById<Button>(Resource.Id.copyButton);
+            DeleteButton = FindViewById<Button>(Resource.Id.deleteButton);
         }
 
         private void BindData()
@@ -65,6 +67,18 @@ namespace PasswordKeeper
         {
             CopyButton.Click += CopyButton_Click;
             RevealButton.Click += RevealButton_Click;
+            DeleteButton.Click += DeleteButton_Click;
+        }
+
+        private void DeleteButton_Click(object sender, EventArgs e)
+        {
+            var dialog = new AlertDialog.Builder(this);
+            dialog.SetTitle("Confirmation");
+            dialog.SetMessage("Are you sure you Want to Delete this Password ?");
+            dialog.SetNeutralButton("Cancel", delegate { });
+            dialog.SetNeutralButton("Yes", delegate {
+
+            });
         }
 
         private void RevealButton_Click(object sender, EventArgs e)

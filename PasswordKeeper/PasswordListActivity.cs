@@ -29,13 +29,27 @@ namespace PasswordKeeper
             SetContentView(Resource.Layout.PasswordListView);
             passwordList = FindViewById<ListView>(Resource.Id.passwordListViewli);
 
-            var db = new SQLiteConnection(AddPasswordActivity.dbPath);
-            var table = db.Table<Password>();
+            try
+            {
+                var db = new SQLiteConnection(AddPasswordActivity.dbPath);
+                var table = db.Table<Password>();
+                items = table.AsParallel().ToList();
+                passwordList.Adapter = new PasswordListAdapter(items, this);
 
-            items = table.AsParallel().ToList();
-            passwordList.Adapter = new PasswordListAdapter(items, this);
-
-            passwordList.ItemClick += PasswordList_ItemClick;
+                passwordList.ItemClick += PasswordList_ItemClick;
+            }
+            catch 
+            {
+                var dialog = new AlertDialog.Builder(this);
+                dialog.SetTitle("First Time");
+                dialog.SetMessage("Since this is your first time you have to create a password first");
+                dialog.SetNeutralButton("Create a New Password", 
+                    delegate { var intent = new Intent(this, typeof(AddPasswordActivity));
+                        StartActivity(intent);
+                    });
+                dialog.SetNeutralButton("Okay", delegate { });
+            }
+          
         }
 
         private void PasswordList_ItemClick(object sender, AdapterView.ItemClickEventArgs e)
