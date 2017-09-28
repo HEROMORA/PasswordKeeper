@@ -13,7 +13,7 @@
         android:layout_height="wrap_content"
         android:id="@+id/linearLayout1"
         android:layout_gravity="center_vertical"
-        android:layout_marginTop="200dp">
+        android:layout_marginTop="180dp">
         <Button
             android:text="Current Saved Passwords"
             android:layout_width="match_parent"
@@ -24,5 +24,10 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:id="@+id/addPasswordButton" />
+        <Button
+            android:text="Change PasswordKeeper User Lock"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/userlockButton" />
     </LinearLayout>
 </LinearLayout>
