@@ -2,4 +2,5 @@
 <resources>
     <string name="Hello">Hello World, Click Me!</string>
     <string name="ApplicationName">PasswordKeeper</string>
+    <string name="HelpFirstTime">If this is your first time just use 123456</string>
 </resources>

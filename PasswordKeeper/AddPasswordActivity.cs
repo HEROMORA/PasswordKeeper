@@ -50,18 +50,24 @@ namespace PasswordKeeper
                     PasswordValue = password.Text
                 };
 
+                if (pass.AppName == "" || pass.Email == "" || pass.PasswordValue == "" || pass.Username == "")
+                    throw new NullReferenceException();
+
                 db.Insert(pass);
 
                 var intent = new Intent(this, typeof(PasswordDetailActivity));
                 intent.PutExtra("passwordId", pass.Id);
+                this.Finish();
                 StartActivity(intent);
             }
             catch (NullReferenceException)
             {
-               // DisplayAlert("");      
-            }
-
-            
+                var dialog = new AlertDialog.Builder(this);
+                dialog.SetTitle("Empty Box Detected");
+                dialog.SetMessage("Please make sure that you've filled all boxes");
+                dialog.SetNeutralButton("Okay", delegate { });
+                dialog.Show();                     
+            }          
         }
 
         private void FindViews()

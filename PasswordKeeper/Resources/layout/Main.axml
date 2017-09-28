@@ -5,14 +5,24 @@
     android:layout_height="match_parent"
     android:minWidth="25px"
     android:minHeight="25px">
-    <Button
-        android:text="Current Saved Passwords"
+    <LinearLayout
+        android:orientation="vertical"
+        android:minWidth="25px"
+        android:minHeight="25px"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:id="@+id/allPasswordsButton" />
-    <Button
-      android:text="Add a new Password"
-      android:layout_width="match_parent"
-      android:layout_height="wrap_content"
-      android:id="@+id/addPasswordButton" />
+        android:id="@+id/linearLayout1"
+        android:layout_gravity="center_vertical"
+        android:layout_marginTop="200dp">
+        <Button
+            android:text="Current Saved Passwords"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/allPasswordsButton" />
+        <Button
+            android:text="Add a new Password"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/addPasswordButton" />
+    </LinearLayout>
 </LinearLayout>

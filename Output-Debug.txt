@@ -1,0 +1,590 @@
+﻿InspectorDebugSession(4): StateChange: Start -> EntryPointBreakpointRegistered
+InspectorDebugSession(4): Constructed
+Android application is debugging.
+InspectorDebugSession(4): HandleTargetEvent: TargetReady
+Loaded assembly: /storage/sdcard0/Android/data/HEROMORA.PasswordKeeper/files/.__override__/PasswordKeeper.dll
+Loaded assembly: /storage/sdcard0/Android/data/HEROMORA.PasswordKeeper/files/.__override__/SQLite-net.dll [External]
+Loaded assembly: /storage/sdcard0/Android/data/HEROMORA.PasswordKeeper/files/.__override__/SQLitePCLRaw.batteries_green.dll [External]
+Loaded assembly: /storage/sdcard0/Android/data/HEROMORA.PasswordKeeper/files/.__override__/SQLitePCLRaw.batteries_v2.dll [External]
+Loaded assembly: /storage/sdcard0/Android/data/HEROMORA.PasswordKeeper/files/.__override__/SQLitePCLRaw.core.dll [External]
+Loaded assembly: /storage/sdcard0/Android/data/HEROMORA.PasswordKeeper/files/.__override__/SQLitePCLRaw.lib.e_sqlite3.dll [External]
+Loaded assembly: /storage/sdcard0/Android/data/HEROMORA.PasswordKeeper/files/.__override__/SQLitePCLRaw.provider.e_sqlite3.dll [External]
+Loaded assembly: Mono.Android.dll [External]
+Loaded assembly: Java.Interop.dll [External]
+Loaded assembly: System.Runtime.dll [External]
+Resolved pending breakpoint for 'Android.Runtime.JNIEnv.RegisterJniNatives(System.IntPtr, int, System.IntPtr, System.IntPtr, int)' to [0x0](no debug symbols).
+09-28 22:39:28.677 D/dalvikvm( 6361): Zygote::ForkAndSpecialize : 0
+09-28 22:39:28.679 D/dalvikvm( 6361): zygote get new systemTid : 6361
+09-28 22:39:28.679 D/dalvikvm( 6361): Late-enabling CheckJNI
+09-28 22:39:28.679 D/dalvikvm( 6361): threadid=2: interp stack at 0x76b1f000
+09-28 22:39:28.679 D/dalvikvm( 6361): threadid=3: interp stack at 0x76c3f000
+09-28 22:39:28.679 D/dalvikvm( 6361): Elevating priority from 0 to -8
+09-28 22:39:28.679 D/jdwp    ( 6361): prepping for JDWP over ADB
+09-28 22:39:28.679 D/dalvikvm( 6361): threadid=4: interp stack at 0x76d5f000
+09-28 22:39:28.679 D/jdwp    ( 6361): JDWP: thread running
+09-28 22:39:28.679 D/dalvikvm( 6361): threadid=5: interp stack at 0x7b680000
+09-28 22:39:28.679 D/jdwp    ( 6361): trying to receive file descriptor from ADB
+09-28 22:39:28.679 D/dalvikvm( 6361): zygote get thread init done
+09-28 22:39:28.680 D/dalvikvm( 6361): create interp thread : stack size=128KB
+09-28 22:39:28.680 D/dalvikvm( 6361): create new thread
+09-28 22:39:28.680 D/dalvikvm( 6361): new thread created
+09-28 22:39:28.680 D/dalvikvm( 6361): update thread list
+09-28 22:39:28.680 D/dalvikvm( 6361): threadid=6: interp stack at 0x7b6a0000
+09-28 22:39:28.680 D/dalvikvm( 6361): threadid=6: created from interp
+09-28 22:39:28.680 D/dalvikvm( 6361): start new thread
+09-28 22:39:28.680 D/dalvikvm( 6361): threadid=6: notify debugger
+09-28 22:39:28.680 D/dalvikvm( 6361): threadid=6 (ReferenceQueueDaemon): calling run()
+09-28 22:39:28.680 D/dalvikvm( 6361): create interp thread : stack size=128KB
+09-28 22:39:28.680 D/dalvikvm( 6361): create new thread
+09-28 22:39:28.680 D/dalvikvm( 6361): new thread created
+09-28 22:39:28.680 D/dalvikvm( 6361): update thread list
+09-28 22:39:28.680 D/dalvikvm( 6361): threadid=7: interp stack at 0x7b7be000
+09-28 22:39:28.680 D/dalvikvm( 6361): threadid=7: created from interp
+09-28 22:39:28.680 D/dalvikvm( 6361): start new thread
+09-28 22:39:28.680 D/dalvikvm( 6361): threadid=7: notify debugger
+09-28 22:39:28.680 D/dalvikvm( 6361): threadid=7 (FinalizerDaemon): calling run()
+09-28 22:39:28.680 D/dalvikvm( 6361): create interp thread : stack size=128KB
+09-28 22:39:28.680 D/dalvikvm( 6361): create new thread
+09-28 22:39:28.680 D/dalvikvm( 6361): new thread created
+09-28 22:39:28.680 D/dalvikvm( 6361): update thread list
+09-28 22:39:28.680 D/dalvikvm( 6361): threadid=8: interp stack at 0x7b8dc000
+09-28 22:39:28.680 D/dalvikvm( 6361): threadid=8: created from interp
+09-28 22:39:28.680 D/dalvikvm( 6361): start new thread
+09-28 22:39:28.680 D/dalvikvm( 6361): threadid=8: notify debugger
+09-28 22:39:28.680 D/dalvikvm( 6361): threadid=8 (FinalizerWatchdogDaemon): calling run()
+09-28 22:39:28.688 D/dalvikvm( 6361): threadid=9: interp stack at 0x7bcf6000
+09-28 22:39:28.688 D/dalvikvm( 6361): threadid=10: interp stack at 0x7be14000
+09-28 22:39:28.689 W/Environment( 6361): userEnvironment:hasSdcard:true,isswitch:true
+09-28 22:39:28.707 V/Provider/Settings( 6361): get setting for user 0 by user 0 so skipping cache
+09-28 22:39:28.707 V/Provider/Settings( 6361): invalidate [system]: current 565 != cached 0
+09-28 22:39:28.708 D/ActivityThread( 6361): hoder:android.app.IActivityManager$ContentProviderHolder@4251d638,provider,holder.Provider:android.content.ContentProviderProxy@4251ddb8
+09-28 22:39:28.709 V/Provider/Settings( 6361): from db cache, name = anr_debugging_mechanism , value = 1
+09-28 22:39:28.713 D/Proxy   ( 6361): setHttpRequestCheckHandler
+09-28 22:39:28.714 D/dalvikvm( 6361): open_cached_dex_file : /data/app/HEROMORA.PasswordKeeper-1.apk /data/dalvik-cache/data@app@HEROMORA.PasswordKeeper-1.apk@classes.dex
+09-28 22:39:28.715 D/ActivityThread( 6361): installProvider: context.getPackageName()=HEROMORA.PasswordKeeper
+09-28 22:39:28.717 D/dalvikvm( 6361): Trying to load lib /data/app-lib/HEROMORA.PasswordKeeper-1/libmonodroid.so 0x42521888
+09-28 22:39:28.718 D/dalvikvm( 6361): Added shared lib /data/app-lib/HEROMORA.PasswordKeeper-1/libmonodroid.so 0x42521888
+09-28 22:39:28.729 W/monodroid( 6361): Creating public update directory: `/data/data/HEROMORA.PasswordKeeper/files/.__override__`
+09-28 22:39:28.730 W/monodroid( 6361): Using override path: /data/data/HEROMORA.PasswordKeeper/files/.__override__
+09-28 22:39:28.730 W/monodroid( 6361): Using override path: /storage/sdcard0/Android/data/HEROMORA.PasswordKeeper/files/.__override__
+09-28 22:39:28.730 W/monodroid( 6361): Trying to load sgen from: /data/data/HEROMORA.PasswordKeeper/files/.__override__/libmonosgen-2.0.so
+09-28 22:39:28.730 W/monodroid( 6361): Trying to load sgen from: /storage/sdcard0/Android/data/HEROMORA.PasswordKeeper/files/.__override__/libmonosgen-2.0.so
+09-28 22:39:28.730 W/monodroid( 6361): Trying to load sgen from: /data/app-lib/HEROMORA.PasswordKeeper-1/libmonosgen-2.0.so
+09-28 22:39:28.731 W/monodroid( 6361): Trying to load sgen from: /data/data/HEROMORA.PasswordKeeper/files/.__override__/links/libmonosgen-2.0.so
+09-28 22:39:28.748 W/monodroid-debug( 6361): Trying to initialize the debugger with options: --debugger-agent=transport=dt_socket,loglevel=0,address=127.0.0.1:29218,server=y,embedding=1
+09-28 22:39:28.889 W/monodroid-debug( 6361): Accepted stdout connection: 51
+09-28 22:39:29.681 D/Mono    ( 6361): Image addref mscorlib[0x7be3a428] -> mscorlib.dll[0x7beb9120]: 2
+09-28 22:39:29.684 D/Mono    ( 6361): Prepared to set up assembly 'mscorlib' (mscorlib.dll)
+09-28 22:39:29.684 D/Mono    ( 6361): AOT: image 'mscorlib.dll.so' not found: dlopen failed: library "/data/app-lib/HEROMORA.PasswordKeeper-1/libaot-mscorlib.dll.so" not found
+09-28 22:39:29.685 D/Mono    ( 6361): AOT: image '/usr/local/lib/mono/aot-cache/arm/mscorlib.dll.so' not found: dlopen failed: library "/data/app-lib/HEROMORA.PasswordKeeper-1/libaot-mscorlib.dll.so" not found
+09-28 22:39:29.686 D/Mono    ( 6361): Config attempting to parse: 'mscorlib.dll.config'.
+09-28 22:39:29.686 D/Mono    ( 6361): Config attempting to parse: '/usr/local/etc/mono/assemblies/mscorlib/mscorlib.config'.
+Loaded assembly: System.Collections.Concurrent.dll [External]
+09-28 22:39:29.747 D/Mono    ( 6361): Assembly mscorlib[0x7be3a428] added to domain RootDomain, ref_count=1
+09-28 22:39:29.748 D/dalvikvm( 6361): threadid=11: interp stack at 0x80e00000
+09-28 22:39:29.749 D/dalvikvm( 6361): threadid=12: interp stack at 0x80e20000
+09-28 22:39:29.843 D/Mono    ( 6361): Assembly Loader probing location: '/storage/sdcard0/Android/data/HEROMORA.PasswordKeeper/files/.__override__/PasswordKeeper.dll'.
+09-28 22:39:29.844 D/Mono    ( 6361): Image addref PasswordKeeper[0x80e42750] -> /storage/sdcard0/Android/data/HEROMORA.PasswordKeeper/files/.__override__/PasswordKeeper.dll[0x7fffda20]: 2
+09-28 22:39:29.844 D/Mono    ( 6361): Prepared to set up assembly 'PasswordKeeper' (/storage/sdcard0/Android/data/HEROMORA.PasswordKeeper/files/.__override__/PasswordKeeper.dll)
+09-28 22:39:29.844 D/Mono    ( 6361): Assembly PasswordKeeper[0x80e42750] added to domain RootDomain, ref_count=1
+09-28 22:39:29.845 D/Mono    ( 6361): AOT: image '/storage/sdcard0/Android/data/HEROMORA.PasswordKeeper/files/.__override__/PasswordKeeper.dll.so' not found: dlopen failed: library "/data/app-lib/HEROMORA.PasswordKeeper-1/libaot-PasswordKeeper.dll.so" not found
+09-28 22:39:29.846 D/Mono    ( 6361): AOT: image '/usr/local/lib/mono/aot-cache/arm/PasswordKeeper.dll.so' not found: dlopen failed: library "/data/app-lib/HEROMORA.PasswordKeeper-1/libaot-PasswordKeeper.dll.so" not found
+09-28 22:39:29.846 D/Mono    ( 6361): Assembly Loader loaded assembly from location: '/storage/sdcard0/Android/data/HEROMORA.PasswordKeeper/files/.__override__/PasswordKeeper.dll'.
+09-28 22:39:29.846 D/Mono    ( 6361): Config attempting to parse: '/storage/sdcard0/Android/data/HEROMORA.PasswordKeeper/files/.__override__/PasswordKeeper.dll.config'.
+09-28 22:39:29.846 D/Mono    ( 6361): Config attempting to parse: '/usr/local/etc/mono/assemblies/PasswordKeeper/PasswordKeeper.config'.
+09-28 22:39:29.847 D/Mono    ( 6361): Assembly Loader probing location: '/storage/sdcard0/Android/data/HEROMORA.PasswordKeeper/files/.__override__/SQLite-net.dll'.
+09-28 22:39:29.848 D/Mono    ( 6361): Image addref SQLite-net[0x80e596c0] -> /storage/sdcard0/Android/data/HEROMORA.PasswordKeeper/files/.__override__/SQLite-net.dll[0x80e429e8]: 2
+09-28 22:39:29.848 D/Mono    ( 6361): Prepared to set up assembly 'SQLite-net' (/storage/sdcard0/Android/data/HEROMORA.PasswordKeeper/files/.__override__/SQLite-net.dll)
+09-28 22:39:29.848 D/Mono    ( 6361): Assembly SQLite-net[0x80e596c0] added to domain RootDomain, ref_count=1
+09-28 22:39:29.849 D/Mono    ( 6361): AOT: image '/storage/sdcard0/Android/data/HEROMORA.PasswordKeeper/files/.__override__/SQLite-net.dll.so' not found: dlopen failed: library "/data/app-lib/HEROMORA.PasswordKeeper-1/libaot-SQLite-net.dll.so" not found
+09-28 22:39:29.850 D/Mono    ( 6361): AOT: image '/usr/local/lib/mono/aot-cache/arm/SQLite-net.dll.so' not found: dlopen failed: library "/data/app-lib/HEROMORA.PasswordKeeper-1/libaot-SQLite-net.dll.so" not found
+09-28 22:39:29.850 D/Mono    ( 6361): Assembly Loader loaded assembly from location: '/storage/sdcard0/Android/data/HEROMORA.PasswordKeeper/files/.__override__/SQLite-net.dll'.
+09-28 22:39:29.850 D/Mono    ( 6361): Config attempting to parse: '/storage/sdcard0/Android/data/HEROMORA.PasswordKeeper/files/.__override__/SQLite-net.dll.config'.
+09-28 22:39:29.851 D/Mono    ( 6361): Config attempting to parse: '/usr/local/etc/mono/assemblies/SQLite-net/SQLite-net.config'.
+09-28 22:39:29.851 D/Mono    ( 6361): Assembly Loader probing location: '/storage/sdcard0/Android/data/HEROMORA.PasswordKeeper/files/.__override__/SQLitePCLRaw.batteries_green.dll'.
+09-28 22:39:29.851 D/Mono    ( 6361): Image addref SQLitePCLRaw.batteries_green[0x80e633a0] -> /storage/sdcard0/Android/data/HEROMORA.PasswordKeeper/files/.__override__/SQLitePCLRaw.batteries_green.dll[0x80e60698]: 2
+09-28 22:39:29.851 D/Mono    ( 6361): Prepared to set up assembly 'SQLitePCLRaw.batteries_green' (/storage/sdcard0/Android/data/HEROMORA.PasswordKeeper/files/.__override__/SQLitePCLRaw.batteries_green.dll)
+09-28 22:39:29.851 D/Mono    ( 6361): Assembly SQLitePCLRaw.batteries_green[0x80e633a0] added to domain RootDomain, ref_count=1
+09-28 22:39:29.853 D/Mono    ( 6361): AOT: image '/storage/sdcard0/Android/data/HEROMORA.PasswordKeeper/files/.__override__/SQLitePCLRaw.batteries_green.dll.so' not found: dlopen failed: library "/data/app-lib/HEROMORA.PasswordKeeper-1/libaot-SQLitePCLRaw.batteries_green.dll.so" not found
+09-28 22:39:29.853 D/Mono    ( 6361): AOT: image '/usr/local/lib/mono/aot-cache/arm/SQLitePCLRaw.batteries_green.dll.so' not found: dlopen failed: library "/data/app-lib/HEROMORA.PasswordKeeper-1/libaot-SQLitePCLRaw.batteries_green.dll.so" not found
+09-28 22:39:29.854 D/Mono    ( 6361): Assembly Loader loaded assembly from location: '/storage/sdcard0/Android/data/HEROMORA.PasswordKeeper/files/.__override__/SQLitePCLRaw.batteries_green.dll'.
+09-28 22:39:29.854 D/Mono    ( 6361): Config attempting to parse: '/storage/sdcard0/Android/data/HEROMORA.PasswordKeeper/files/.__override__/SQLitePCLRaw.batteries_green.dll.config'.
+09-28 22:39:29.854 D/Mono    ( 6361): Config attempting to parse: '/usr/local/etc/mono/assemblies/SQLitePCLRaw.batteries_green/SQLitePCLRaw.batteries_green.config'.
+09-28 22:39:29.854 D/Mono    ( 6361): Assembly Loader probing location: '/storage/sdcard0/Android/data/HEROMORA.PasswordKeeper/files/.__override__/SQLitePCLRaw.batteries_v2.dll'.
+09-28 22:39:29.855 D/Mono    ( 6361): Image addref SQLitePCLRaw.batteries_v2[0x80e66200] -> /storage/sdcard0/Android/data/HEROMORA.PasswordKeeper/files/.__override__/SQLitePCLRaw.batteries_v2.dll[0x80e63530]: 2
+09-28 22:39:29.855 D/Mono    ( 6361): Prepared to set up assembly 'SQLitePCLRaw.batteries_v2' (/storage/sdcard0/Android/data/HEROMORA.PasswordKeeper/files/.__override__/SQLitePCLRaw.batteries_v2.dll)
+09-28 22:39:29.855 D/Mono    ( 6361): Assembly SQLitePCLRaw.batteries_v2[0x80e66200] added to domain RootDomain, ref_count=1
+09-28 22:39:29.856 D/Mono    ( 6361): AOT: image '/storage/sdcard0/Android/data/HEROMORA.PasswordKeeper/files/.__override__/SQLitePCLRaw.batteries_v2.dll.so' not found: dlopen failed: library "/data/app-lib/HEROMORA.PasswordKeeper-1/libaot-SQLitePCLRaw.batteries_v2.dll.so" not found
+09-28 22:39:29.857 D/Mono    ( 6361): AOT: image '/usr/local/lib/mono/aot-cache/arm/SQLitePCLRaw.batteries_v2.dll.so' not found: dlopen failed: library "/data/app-lib/HEROMORA.PasswordKeeper-1/libaot-SQLitePCLRaw.batteries_v2.dll.so" not found
+09-28 22:39:29.857 D/Mono    ( 6361): Assembly Loader loaded assembly from location: '/storage/sdcard0/Android/data/HEROMORA.PasswordKeeper/files/.__override__/SQLitePCLRaw.batteries_v2.dll'.
+09-28 22:39:29.857 D/Mono    ( 6361): Config attempting to parse: '/storage/sdcard0/Android/data/HEROMORA.PasswordKeeper/files/.__override__/SQLitePCLRaw.batteries_v2.dll.config'.
+09-28 22:39:29.858 D/Mono    ( 6361): Config attempting to parse: '/usr/local/etc/mono/assemblies/SQLitePCLRaw.batteries_v2/SQLitePCLRaw.batteries_v2.config'.
+09-28 22:39:29.858 D/Mono    ( 6361): Assembly Loader probing location: '/storage/sdcard0/Android/data/HEROMORA.PasswordKeeper/files/.__override__/SQLitePCLRaw.core.dll'.
+09-28 22:39:29.859 D/Mono    ( 6361): Image addref SQLitePCLRaw.core[0x80e66f78] -> /storage/sdcard0/Android/data/HEROMORA.PasswordKeeper/files/.__override__/SQLitePCLRaw.core.dll[0x80e66390]: 2
+09-28 22:39:29.859 D/Mono    ( 6361): Prepared to set up assembly 'SQLitePCLRaw.core' (/storage/sdcard0/Android/data/HEROMORA.PasswordKeeper/files/.__override__/SQLitePCLRaw.core.dll)
+09-28 22:39:29.859 D/Mono    ( 6361): Assembly SQLitePCLRaw.core[0x80e66f78] added to domain RootDomain, ref_count=1
+09-28 22:39:29.861 D/Mono    ( 6361): AOT: image '/storage/sdcard0/Android/data/HEROMORA.PasswordKeeper/files/.__override__/SQLitePCLRaw.core.dll.so' not found: dlopen failed: library "/data/app-lib/HEROMORA.PasswordKeeper-1/libaot-SQLitePCLRaw.core.dll.so" not found
+09-28 22:39:29.861 D/Mono    ( 6361): AOT: image '/usr/local/lib/mono/aot-cache/arm/SQLitePCLRaw.core.dll.so' not found: dlopen failed: library "/data/app-lib/HEROMORA.PasswordKeeper-1/libaot-SQLitePCLRaw.core.dll.so" not found
+09-28 22:39:29.862 D/Mono    ( 6361): Assembly Loader loaded assembly from location: '/storage/sdcard0/Android/data/HEROMORA.PasswordKeeper/files/.__override__/SQLitePCLRaw.core.dll'.
+09-28 22:39:29.862 D/Mono    ( 6361): Config attempting to parse: '/storage/sdcard0/Android/data/HEROMORA.PasswordKeeper/files/.__override__/SQLitePCLRaw.core.dll.config'.
+09-28 22:39:29.862 D/Mono    ( 6361): Config attempting to parse: '/usr/local/etc/mono/assemblies/SQLitePCLRaw.core/SQLitePCLRaw.core.config'.
+09-28 22:39:29.862 D/Mono    ( 6361): Assembly Loader probing location: '/storage/sdcard0/Android/data/HEROMORA.PasswordKeeper/files/.__override__/SQLitePCLRaw.lib.e_sqlite3.dll'.
+09-28 22:39:29.864 D/Mono    ( 6361): Image addref SQLitePCLRaw.lib.e_sqlite3[0x80e71e98] -> /storage/sdcard0/Android/data/HEROMORA.PasswordKeeper/files/.__override__/SQLitePCLRaw.lib.e_sqlite3.dll[0x80e71238]: 2
+09-28 22:39:29.864 D/Mono    ( 6361): Prepared to set up assembly 'SQLitePCLRaw.lib.e_sqlite3' (/storage/sdcard0/Android/data/HEROMORA.PasswordKeeper/files/.__override__/SQLitePCLRaw.lib.e_sqlite3.dll)
+09-28 22:39:29.864 D/Mono    ( 6361): Assembly SQLitePCLRaw.lib.e_sqlite3[0x80e71e98] added to domain RootDomain, ref_count=1
+09-28 22:39:29.866 D/Mono    ( 6361): AOT: image '/storage/sdcard0/Android/data/HEROMORA.PasswordKeeper/files/.__override__/SQLitePCLRaw.lib.e_sqlite3.dll.so' not found: dlopen failed: library "/data/app-lib/HEROMORA.PasswordKeeper-1/libaot-SQLitePCLRaw.lib.e_sqlite3.dll.so" not found
+09-28 22:39:29.866 D/Mono    ( 6361): AOT: image '/usr/local/lib/mono/aot-cache/arm/SQLitePCLRaw.lib.e_sqlite3.dll.so' not found: dlopen failed: library "/data/app-lib/HEROMORA.PasswordKeeper-1/libaot-SQLitePCLRaw.lib.e_sqlite3.dll.so" not found
+09-28 22:39:29.867 D/Mono    ( 6361): Assembly Loader loaded assembly from location: '/storage/sdcard0/Android/data/HEROMORA.PasswordKeeper/files/.__override__/SQLitePCLRaw.lib.e_sqlite3.dll'.
+09-28 22:39:29.867 D/Mono    ( 6361): Config attempting to parse: '/storage/sdcard0/Android/data/HEROMORA.PasswordKeeper/files/.__override__/SQLitePCLRaw.lib.e_sqlite3.dll.config'.
+09-28 22:39:29.867 D/Mono    ( 6361): Config attempting to parse: '/usr/local/etc/mono/assemblies/SQLitePCLRaw.lib.e_sqlite3/SQLitePCLRaw.lib.e_sqlite3.config'.
+09-28 22:39:29.867 D/Mono    ( 6361): Assembly Loader probing location: '/storage/sdcard0/Android/data/HEROMORA.PasswordKeeper/files/.__override__/SQLitePCLRaw.provider.e_sqlite3.dll'.
+09-28 22:39:29.868 D/Mono    ( 6361): Image addref SQLitePCLRaw.provider.e_sqlite3[0x81042d38] -> /storage/sdcard0/Android/data/HEROMORA.PasswordKeeper/files/.__override__/SQLitePCLRaw.provider.e_sqlite3.dll[0x81042080]: 2
+09-28 22:39:29.868 D/Mono    ( 6361): Prepared to set up assembly 'SQLitePCLRaw.provider.e_sqlite3' (/storage/sdcard0/Android/data/HEROMORA.PasswordKeeper/files/.__override__/SQLitePCLRaw.provider.e_sqlite3.dll)
+09-28 22:39:29.868 D/Mono    ( 6361): Assembly SQLitePCLRaw.provider.e_sqlite3[0x81042d38] added to domain RootDomain, ref_count=1
+09-28 22:39:29.869 D/Mono    ( 6361): AOT: image '/storage/sdcard0/Android/data/HEROMORA.PasswordKeeper/files/.__override__/SQLitePCLRaw.provider.e_sqlite3.dll.so' not found: dlopen failed: library "/data/app-lib/HEROMORA.PasswordKeeper-1/libaot-SQLitePCLRaw.provider.e_sqlite3.dll.so" not found
+09-28 22:39:29.870 D/Mono    ( 6361): AOT: image '/usr/local/lib/mono/aot-cache/arm/SQLitePCLRaw.provider.e_sqlite3.dll.so' not found: dlopen failed: library "/data/app-lib/HEROMORA.PasswordKeeper-1/libaot-SQLitePCLRaw.provider.e_sqlite3.dll.so" not found
+09-28 22:39:29.871 D/Mono    ( 6361): Assembly Loader loaded assembly from location: '/storage/sdcard0/Android/data/HEROMORA.PasswordKeeper/files/.__override__/SQLitePCLRaw.provider.e_sqlite3.dll'.
+09-28 22:39:29.871 D/Mono    ( 6361): Config attempting to parse: '/storage/sdcard0/Android/data/HEROMORA.PasswordKeeper/files/.__override__/SQLitePCLRaw.provider.e_sqlite3.dll.config'.
+09-28 22:39:29.871 D/Mono    ( 6361): Config attempting to parse: '/usr/local/etc/mono/assemblies/SQLitePCLRaw.provider.e_sqlite3/SQLitePCLRaw.provider.e_sqlite3.config'.
+09-28 22:39:29.871 W/monodroid-gc( 6361): GREF GC Threshold: 46080
+09-28 22:39:29.879 D/Mono    ( 6361): Image addref Mono.Android[0x8104da40] -> Mono.Android.dll[0x8104d008]: 2
+09-28 22:39:29.889 D/Mono    ( 6361): Prepared to set up assembly 'Mono.Android' (Mono.Android.dll)
+09-28 22:39:29.889 D/Mono    ( 6361): Assembly Mono.Android[0x8104da40] added to domain RootDomain, ref_count=1
+09-28 22:39:29.890 D/Mono    ( 6361): AOT: image 'Mono.Android.dll.so' not found: dlopen failed: library "/data/app-lib/HEROMORA.PasswordKeeper-1/libaot-Mono.Android.dll.so" not found
+09-28 22:39:29.890 D/Mono    ( 6361): AOT: image '/usr/local/lib/mono/aot-cache/arm/Mono.Android.dll.so' not found: dlopen failed: library "/data/app-lib/HEROMORA.PasswordKeeper-1/libaot-Mono.Android.dll.so" not found
+09-28 22:39:29.891 D/Mono    ( 6361): Config attempting to parse: 'Mono.Android.dll.config'.
+09-28 22:39:29.891 D/Mono    ( 6361): Config attempting to parse: '/usr/local/etc/mono/assemblies/Mono.Android/Mono.Android.config'.
+09-28 22:39:29.911 D/Mono    ( 6361): Assembly Ref addref Mono.Android[0x8104da40] -> mscorlib[0x7be3a428]: 2
+09-28 22:39:29.912 D/Mono    ( 6361): Image addref Java.Interop[0x81069e68] -> Java.Interop.dll[0x81069268]: 2
+09-28 22:39:29.912 D/Mono    ( 6361): Prepared to set up assembly 'Java.Interop' (Java.Interop.dll)
+09-28 22:39:29.912 D/Mono    ( 6361): Assembly Java.Interop[0x81069e68] added to domain RootDomain, ref_count=1
+09-28 22:39:29.913 D/Mono    ( 6361): AOT: image 'Java.Interop.dll.so' not found: dlopen failed: library "/data/app-lib/HEROMORA.PasswordKeeper-1/libaot-Java.Interop.dll.so" not found
+09-28 22:39:29.913 D/Mono    ( 6361): AOT: image '/usr/local/lib/mono/aot-cache/arm/Java.Interop.dll.so' not found: dlopen failed: library "/data/app-lib/HEROMORA.PasswordKeeper-1/libaot-Java.Interop.dll.so" not found
+09-28 22:39:29.913 D/Mono    ( 6361): Config attempting to parse: 'Java.Interop.dll.config'.
+09-28 22:39:29.913 D/Mono    ( 6361): Config attempting to parse: '/usr/local/etc/mono/assemblies/Java.Interop/Java.Interop.config'.
+09-28 22:39:29.913 D/Mono    ( 6361): Assembly Ref addref Mono.Android[0x8104da40] -> Java.Interop[0x81069e68]: 2
+09-28 22:39:29.915 D/Mono    ( 6361): Image addref System.Runtime[0x8106ad40] -> System.Runtime.dll[0x8106a140]: 2
+09-28 22:39:29.915 D/Mono    ( 6361): Prepared to set up assembly 'System.Runtime' (System.Runtime.dll)
+09-28 22:39:29.915 D/Mono    ( 6361): Assembly System.Runtime[0x8106ad40] added to domain RootDomain, ref_count=1
+09-28 22:39:29.915 D/Mono    ( 6361): AOT: image 'System.Runtime.dll.so' not found: dlopen failed: library "/data/app-lib/HEROMORA.PasswordKeeper-1/libaot-System.Runtime.dll.so" not found
+09-28 22:39:29.916 D/Mono    ( 6361): AOT: image '/usr/local/lib/mono/aot-cache/arm/System.Runtime.dll.so' not found: dlopen failed: library "/data/app-lib/HEROMORA.PasswordKeeper-1/libaot-System.Runtime.dll.so" not found
+09-28 22:39:29.916 D/Mono    ( 6361): Config attempting to parse: 'System.Runtime.dll.config'.
+09-28 22:39:29.916 D/Mono    ( 6361): Config attempting to parse: '/usr/local/etc/mono/assemblies/System.Runtime/System.Runtime.config'.
+09-28 22:39:29.916 D/Mono    ( 6361): Assembly Ref addref Java.Interop[0x81069e68] -> System.Runtime[0x8106ad40]: 2
+09-28 22:39:29.916 D/Mono    ( 6361): Assembly Ref addref System.Runtime[0x8106ad40] -> mscorlib[0x7be3a428]: 3
+09-28 22:39:29.925 W/monodroid( 6361): Calling into managed runtime init
+09-28 22:39:30.042 D/Mono    ( 6361): Image addref System.Collections.Concurrent[0x81083590] -> System.Collections.Concurrent.dll[0x810828f8]: 2
+09-28 22:39:30.042 D/Mono    ( 6361): Prepared to set up assembly 'System.Collections.Concurrent' (System.Collections.Concurrent.dll)
+09-28 22:39:30.042 D/Mono    ( 6361): Assembly System.Collections.Concurrent[0x81083590] added to domain RootDomain, ref_count=1
+09-28 22:39:30.043 D/Mono    ( 6361): AOT: image 'System.Collections.Concurrent.dll.so' not found: dlopen failed: library "/data/app-lib/HEROMORA.PasswordKeeper-1/libaot-System.Collections.Concurrent.dll.so" not found
+09-28 22:39:30.043 D/Mono    ( 6361): AOT: image '/usr/local/lib/mono/aot-cache/arm/System.Collections.Concurrent.dll.so' not found: dlopen failed: library "/data/app-lib/HEROMORA.PasswordKeeper-1/libaot-System.Collections.Concurrent.dll.so" not found
+09-28 22:39:30.043 D/Mono    ( 6361): Config attempting to parse: 'System.Collections.Concurrent.dll.config'.
+09-28 22:39:30.043 D/Mono    ( 6361): Config attempting to parse: '/usr/local/etc/mono/assemblies/System.Collections.Concurrent/System.Collections.Concurrent.config'.
+09-28 22:39:30.043 D/Mono    ( 6361): Assembly Ref addref Java.Interop[0x81069e68] -> System.Collections.Concurrent[0x81083590]: 2
+09-28 22:39:30.043 D/Mono    ( 6361): Assembly Ref addref System.Collections.Concurrent[0x81083590] -> mscorlib[0x7be3a428]: 4
+09-28 22:39:30.092 D/Mono    ( 6361): Image addref System.Threading[0x810b2130] -> System.Threading.dll[0x810bbf88]: 2
+09-28 22:39:30.092 D/Mono    ( 6361): Prepared to set up assembly 'System.Threading' (System.Threading.dll)
+09-28 22:39:30.092 D/Mono    ( 6361): Assembly System.Threading[0x810b2130] added to domain RootDomain, ref_count=1
+09-28 22:39:30.092 D/Mono    ( 6361): AOT: image 'System.Threading.dll.so' not found: dlopen failed: library "/data/app-lib/HEROMORA.PasswordKeeper-1/libaot-System.Threading.dll.so" not found
+09-28 22:39:30.093 D/Mono    ( 6361): AOT: image '/usr/local/lib/mono/aot-cache/arm/System.Threading.dll.so' not found: dlopen failed: library "/data/app-lib/HEROMORA.PasswordKeeper-1/libaot-System.Threading.dll.so" not found
+09-28 22:39:30.093 D/Mono    ( 6361): Config attempting to parse: 'System.Threading.dll.config'.
+09-28 22:39:30.093 D/Mono    ( 6361): Config attempting to parse: '/usr/local/etc/mono/assemblies/System.Threading/System.Threading.config'.
+09-28 22:39:30.093 D/Mono    ( 6361): Assembly Ref addref Java.Interop[0x81069e68] -> System.Threading[0x810b2130]: 2
+Loaded assembly: System.Threading.dll [External]
+09-28 22:39:30.093 D/Mono    ( 6361): Assembly Ref addref System.Threading[0x810b2130] -> mscorlib[0x7be3a428]: 5
+09-28 22:39:30.105 D/Mono    ( 6361): Image addref System.Runtime.InteropServices[0x8106ee88] -> System.Runtime.InteropServices.dll[0x8106e7c8]: 2
+09-28 22:39:30.105 D/Mono    ( 6361): Prepared to set up assembly 'System.Runtime.InteropServices' (System.Runtime.InteropServices.dll)
+09-28 22:39:30.105 D/Mono    ( 6361): Assembly System.Runtime.InteropServices[0x8106ee88] added to domain RootDomain, ref_count=1
+09-28 22:39:30.105 D/Mono    ( 6361): AOT: image 'System.Runtime.InteropServices.dll.so' not found: dlopen failed: library "/data/app-lib/HEROMORA.PasswordKeeper-1/libaot-System.Runtime.InteropServices.dll.so" not found
+09-28 22:39:30.106 D/Mono    ( 6361): AOT: image '/usr/local/lib/mono/aot-cache/arm/System.Runtime.InteropServices.dll.so' not found: dlopen failed: library "/data/app-lib/HEROMORA.PasswordKeeper-1/libaot-System.Runtime.InteropServices.dll.so" not found
+09-28 22:39:30.106 D/Mono    ( 6361): Config attempting to parse: 'System.Runtime.InteropServices.dll.config'.
+09-28 22:39:30.106 D/Mono    ( 6361): Config attempting to parse: '/usr/local/etc/mono/assemblies/System.Runtime.InteropServices/System.Runtime.InteropServices.config'.
+09-28 22:39:30.106 D/Mono    ( 6361): Assembly Ref addref Java.Interop[0x81069e68] -> System.Runtime.InteropServices[0x8106ee88]: 2
+Loaded assembly: System.Runtime.InteropServices.dll [External]
+09-28 22:39:30.106 D/Mono    ( 6361): Assembly Ref addref System.Runtime.InteropServices[0x8106ee88] -> mscorlib[0x7be3a428]: 6
+09-28 22:39:30.122 D/Mono    ( 6361): DllImport attempting to load: '__Internal'.
+09-28 22:39:30.122 D/Mono    ( 6361): DllImport loaded library '(null)'.
+09-28 22:39:30.122 D/Mono    ( 6361): DllImport searching in: '__Internal' ('(null)').
+09-28 22:39:30.122 D/Mono    ( 6361): Searching for 'java_interop_jnienv_get_java_vm'.
+09-28 22:39:30.122 D/Mono    ( 6361): Probing 'java_interop_jnienv_get_java_vm'.
+09-28 22:39:30.122 D/Mono    ( 6361): Found as 'java_interop_jnienv_get_java_vm'.
+09-28 22:39:30.139 D/Mono    ( 6361): DllImport attempting to load: '__Internal'.
+09-28 22:39:30.139 D/Mono    ( 6361): DllImport loaded library '(null)'.
+09-28 22:39:30.139 D/Mono    ( 6361): DllImport searching in: '__Internal' ('(null)').
+09-28 22:39:30.139 D/Mono    ( 6361): Searching for '_monodroid_gref_log_new'.
+09-28 22:39:30.139 D/Mono    ( 6361): Probing '_monodroid_gref_log_new'.
+09-28 22:39:30.139 D/Mono    ( 6361): Found as '_monodroid_gref_log_new'.
+09-28 22:39:30.140 D/Mono    ( 6361): DllImport searching in: '__Internal' ('(null)').
+09-28 22:39:30.140 D/Mono    ( 6361): Searching for 'java_interop_jnienv_new_global_ref'.
+09-28 22:39:30.140 D/Mono    ( 6361): Probing 'java_interop_jnienv_new_global_ref'.
+09-28 22:39:30.140 D/Mono    ( 6361): Found as 'java_interop_jnienv_new_global_ref'.
+09-28 22:39:30.141 D/Mono    ( 6361): DllImport searching in: '__Internal' ('(null)').
+09-28 22:39:30.141 D/Mono    ( 6361): Searching for '_monodroid_gref_get'.
+09-28 22:39:30.141 D/Mono    ( 6361): Probing '_monodroid_gref_get'.
+09-28 22:39:30.141 D/Mono    ( 6361): Found as '_monodroid_gref_get'.
+09-28 22:39:30.162 D/Mono    ( 6361): Image addref System.Reflection[0x810efc80] -> System.Reflection.dll[0x810ef1f0]: 2
+09-28 22:39:30.162 D/Mono    ( 6361): Prepared to set up assembly 'System.Reflection' (System.Reflection.dll)
+09-28 22:39:30.162 D/Mono    ( 6361): Assembly System.Reflection[0x810efc80] added to domain RootDomain, ref_count=1
+09-28 22:39:30.162 D/Mono    ( 6361): AOT: image 'System.Reflection.dll.so' not found: dlopen failed: library "/data/app-lib/HEROMORA.PasswordKeeper-1/libaot-System.Reflection.dll.so" not found
+09-28 22:39:30.163 D/Mono    ( 6361): AOT: image '/usr/local/lib/mono/aot-cache/arm/System.Reflection.dll.so' not found: dlopen failed: library "/data/app-lib/HEROMORA.PasswordKeeper-1/libaot-System.Reflection.dll.so" not found
+09-28 22:39:30.163 D/Mono    ( 6361): Config attempting to parse: 'System.Reflection.dll.config'.
+09-28 22:39:30.163 D/Mono    ( 6361): Config attempting to parse: '/usr/local/etc/mono/assemblies/System.Reflection/System.Reflection.config'.
+09-28 22:39:30.163 D/Mono    ( 6361): Assembly Ref addref Java.Interop[0x81069e68] -> System.Reflection[0x810efc80]: 2
+09-28 22:39:30.163 D/Mono    ( 6361): Assembly Ref addref System.Reflection[0x810efc80] -> mscorlib[0x7be3a428]: 7
+Loaded assembly: System.Reflection.dll [External]
+Loaded assembly: System.Collections.dll [External]
+09-28 22:39:30.171 D/Mono    ( 6361): Image addref System.Collections[0x810ddd40] -> System.Collections.dll[0x810f9da8]: 2
+09-28 22:39:30.171 D/Mono    ( 6361): Prepared to set up assembly 'System.Collections' (System.Collections.dll)
+09-28 22:39:30.171 D/Mono    ( 6361): Assembly System.Collections[0x810ddd40] added to domain RootDomain, ref_count=1
+09-28 22:39:30.171 D/Mono    ( 6361): AOT: image 'System.Collections.dll.so' not found: dlopen failed: library "/data/app-lib/HEROMORA.PasswordKeeper-1/libaot-System.Collections.dll.so" not found
+09-28 22:39:30.172 D/Mono    ( 6361): AOT: image '/usr/local/lib/mono/aot-cache/arm/System.Collections.dll.so' not found: dlopen failed: library "/data/app-lib/HEROMORA.PasswordKeeper-1/libaot-System.Collections.dll.so" not found
+09-28 22:39:30.172 D/Mono    ( 6361): Config attempting to parse: 'System.Collections.dll.config'.
+09-28 22:39:30.172 D/Mono    ( 6361): Config attempting to parse: '/usr/local/etc/mono/assemblies/System.Collections/System.Collections.config'.
+09-28 22:39:30.172 D/Mono    ( 6361): Assembly Ref addref Java.Interop[0x81069e68] -> System.Collections[0x810ddd40]: 2
+09-28 22:39:30.172 D/Mono    ( 6361): Assembly Ref addref System.Collections[0x810ddd40] -> mscorlib[0x7be3a428]: 8
+09-28 22:39:30.194 D/Mono    ( 6361): DllImport searching in: '__Internal' ('(null)').
+09-28 22:39:30.194 D/Mono    ( 6361): Searching for 'java_interop_jnienv_find_class'.
+09-28 22:39:30.194 D/Mono    ( 6361): Probing 'java_interop_jnienv_find_class'.
+09-28 22:39:30.194 D/Mono    ( 6361): Found as 'java_interop_jnienv_find_class'.
+09-28 22:39:30.194 D/Mono    ( 6361): DllImport searching in: '__Internal' ('(null)').
+09-28 22:39:30.194 D/Mono    ( 6361): Searching for 'java_interop_jnienv_exception_clear'.
+09-28 22:39:30.194 D/Mono    ( 6361): Probing 'java_interop_jnienv_exception_clear'.
+09-28 22:39:30.194 D/Mono    ( 6361): Found as 'java_interop_jnienv_exception_clear'.
+09-28 22:39:30.194 D/Mono    ( 6361): DllImport searching in: '__Internal' ('(null)').
+09-28 22:39:30.194 D/Mono    ( 6361): Searching for 'java_interop_jnienv_call_object_method_a'.
+09-28 22:39:30.194 D/Mono    ( 6361): Probing 'java_interop_jnienv_call_object_method_a'.
+09-28 22:39:30.194 D/Mono    ( 6361): Found as 'java_interop_jnienv_call_object_method_a'.
+09-28 22:39:30.194 D/Mono    ( 6361): DllImport searching in: '__Internal' ('(null)').
+09-28 22:39:30.194 D/Mono    ( 6361): Searching for 'java_interop_jnienv_delete_local_ref'.
+09-28 22:39:30.194 D/Mono    ( 6361): Probing 'java_interop_jnienv_delete_local_ref'.
+09-28 22:39:30.194 D/Mono    ( 6361): Found as 'java_interop_jnienv_delete_local_ref'.
+09-28 22:39:30.199 D/Mono    ( 6361): DllImport searching in: '__Internal' ('(null)').
+09-28 22:39:30.199 D/Mono    ( 6361): Searching for '_monodroid_lref_log_new'.
+09-28 22:39:30.199 D/Mono    ( 6361): Probing '_monodroid_lref_log_new'.
+09-28 22:39:30.199 D/Mono    ( 6361): Found as '_monodroid_lref_log_new'.
+09-28 22:39:30.202 D/Mono    ( 6361): DllImport searching in: '__Internal' ('(null)').
+09-28 22:39:30.202 D/Mono    ( 6361): Searching for '_monodroid_lref_log_delete'.
+09-28 22:39:30.202 D/Mono    ( 6361): Probing '_monodroid_lref_log_delete'.
+09-28 22:39:30.202 D/Mono    ( 6361): Found as '_monodroid_lref_log_delete'.
+09-28 22:39:30.204 D/Mono    ( 6361): DllImport searching in: '__Internal' ('(null)').
+09-28 22:39:30.204 D/Mono    ( 6361): Searching for 'java_interop_jnienv_get_method_id'.
+09-28 22:39:30.204 D/Mono    ( 6361): Probing 'java_interop_jnienv_get_method_id'.
+09-28 22:39:30.204 D/Mono    ( 6361): Found as 'java_interop_jnienv_get_method_id'.
+09-28 22:39:30.206 D/Mono    ( 6361): DllImport searching in: '__Internal' ('(null)').
+09-28 22:39:30.206 D/Mono    ( 6361): Searching for '_monodroid_gref_log_delete'.
+09-28 22:39:30.206 D/Mono    ( 6361): Probing '_monodroid_gref_log_delete'.
+09-28 22:39:30.206 D/Mono    ( 6361): Found as '_monodroid_gref_log_delete'.
+09-28 22:39:30.207 D/Mono    ( 6361): DllImport searching in: '__Internal' ('(null)').
+09-28 22:39:30.207 D/Mono    ( 6361): Searching for 'java_interop_jnienv_delete_global_ref'.
+09-28 22:39:30.207 D/Mono    ( 6361): Probing 'java_interop_jnienv_delete_global_ref'.
+09-28 22:39:30.207 D/Mono    ( 6361): Found as 'java_interop_jnienv_delete_global_ref'.
+09-28 22:39:30.211 D/Mono    ( 6361): DllImport searching in: '__Internal' ('(null)').
+09-28 22:39:30.211 D/Mono    ( 6361): Searching for 'java_interop_jnienv_get_static_method_id'.
+09-28 22:39:30.211 D/Mono    ( 6361): Probing 'java_interop_jnienv_get_static_method_id'.
+09-28 22:39:30.211 D/Mono    ( 6361): Found as 'java_interop_jnienv_get_static_method_id'.
+09-28 22:39:30.215 D/Mono    ( 6361): DllImport searching in: '__Internal' ('(null)').
+09-28 22:39:30.216 D/Mono    ( 6361): Searching for 'java_interop_jnienv_call_static_object_method_a'.
+09-28 22:39:30.216 D/Mono    ( 6361): Probing 'java_interop_jnienv_call_static_object_method_a'.
+09-28 22:39:30.216 D/Mono    ( 6361): Found as 'java_interop_jnienv_call_static_object_method_a'.
+09-28 22:39:30.221 D/Mono    ( 6361): DllImport searching in: '__Internal' ('(null)').
+09-28 22:39:30.221 D/Mono    ( 6361): Searching for '_monodroid_get_identity_hash_code'.
+09-28 22:39:30.221 D/Mono    ( 6361): Probing '_monodroid_get_identity_hash_code'.
+09-28 22:39:30.221 D/Mono    ( 6361): Found as '_monodroid_get_identity_hash_code'.
+09-28 22:39:30.245 D/Mono    ( 6361): DllImport searching in: '__Internal' ('(null)').
+09-28 22:39:30.245 D/Mono    ( 6361): Searching for 'java_interop_jnienv_get_object_class'.
+09-28 22:39:30.245 D/Mono    ( 6361): Probing 'java_interop_jnienv_get_object_class'.
+09-28 22:39:30.245 D/Mono    ( 6361): Found as 'java_interop_jnienv_get_object_class'.
+09-28 22:39:30.246 D/Mono    ( 6361): DllImport searching in: '__Internal' ('(null)').
+09-28 22:39:30.246 D/Mono    ( 6361): Searching for 'java_interop_jnienv_call_object_method'.
+09-28 22:39:30.246 D/Mono    ( 6361): Probing 'java_interop_jnienv_call_object_method'.
+09-28 22:39:30.246 D/Mono    ( 6361): Found as 'java_interop_jnienv_call_object_method'.
+09-28 22:39:30.249 D/Mono    ( 6361): DllImport searching in: '__Internal' ('(null)').
+09-28 22:39:30.249 D/Mono    ( 6361): Searching for 'java_interop_jnienv_get_string_length'.
+09-28 22:39:30.249 D/Mono    ( 6361): Probing 'java_interop_jnienv_get_string_length'.
+09-28 22:39:30.250 D/Mono    ( 6361): Found as 'java_interop_jnienv_get_string_length'.
+09-28 22:39:30.250 D/Mono    ( 6361): DllImport searching in: '__Internal' ('(null)').
+09-28 22:39:30.250 D/Mono    ( 6361): Searching for 'java_interop_jnienv_get_string_chars'.
+09-28 22:39:30.250 D/Mono    ( 6361): Probing 'java_interop_jnienv_get_string_chars'.
+09-28 22:39:30.250 D/Mono    ( 6361): Found as 'java_interop_jnienv_get_string_chars'.
+09-28 22:39:30.253 D/Mono    ( 6361): DllImport searching in: '__Internal' ('(null)').
+09-28 22:39:30.253 D/Mono    ( 6361): Searching for 'java_interop_jnienv_release_string_chars'.
+09-28 22:39:30.253 D/Mono    ( 6361): Probing 'java_interop_jnienv_release_string_chars'.
+09-28 22:39:30.253 D/Mono    ( 6361): Found as 'java_interop_jnienv_release_string_chars'.
+09-28 22:39:30.258 D/Mono    ( 6361): DllImport searching in: '__Internal' ('(null)').
+09-28 22:39:30.258 D/Mono    ( 6361): Searching for 'monodroid_typemap_java_to_managed'.
+09-28 22:39:30.258 D/Mono    ( 6361): Probing 'monodroid_typemap_java_to_managed'.
+09-28 22:39:30.258 D/Mono    ( 6361): Found as 'monodroid_typemap_java_to_managed'.
+09-28 22:39:30.297 D/Mono    ( 6361): DllImport searching in: '__Internal' ('(null)').
+09-28 22:39:30.297 D/Mono    ( 6361): Searching for 'java_interop_jnienv_get_superclass'.
+09-28 22:39:30.297 D/Mono    ( 6361): Probing 'java_interop_jnienv_get_superclass'.
+09-28 22:39:30.297 D/Mono    ( 6361): Found as 'java_interop_jnienv_get_superclass'.
+09-28 22:39:30.338 D/Mono    ( 6361): DllImport searching in: '__Internal' ('(null)').
+09-28 22:39:30.338 D/Mono    ( 6361): Searching for 'java_interop_jnienv_is_instance_of'.
+09-28 22:39:30.338 D/Mono    ( 6361): Probing 'java_interop_jnienv_is_instance_of'.
+09-28 22:39:30.338 D/Mono    ( 6361): Found as 'java_interop_jnienv_is_instance_of'.
+09-28 22:39:30.339 D/Mono    ( 6361): DllImport searching in: '__Internal' ('(null)').
+09-28 22:39:30.339 D/Mono    ( 6361): Searching for '_monodroid_gref_log'.
+09-28 22:39:30.339 D/Mono    ( 6361): Probing '_monodroid_gref_log'.
+09-28 22:39:30.339 D/Mono    ( 6361): Found as '_monodroid_gref_log'.
+09-28 22:39:30.367 D/Mono    ( 6361): Image addref System.Linq[0x811b1cc8] -> System.Linq.dll[0x811b15d8]: 2
+09-28 22:39:30.367 D/Mono    ( 6361): Prepared to set up assembly 'System.Linq' (System.Linq.dll)
+09-28 22:39:30.367 D/Mono    ( 6361): Assembly System.Linq[0x811b1cc8] added to domain RootDomain, ref_count=1
+09-28 22:39:30.367 D/Mono    ( 6361): AOT: image 'System.Linq.dll.so' not found: dlopen failed: library "/data/app-lib/HEROMORA.PasswordKeeper-1/libaot-System.Linq.dll.so" not found
+09-28 22:39:30.367 D/Mono    ( 6361): AOT: image '/usr/local/lib/mono/aot-cache/arm/System.Linq.dll.so' not found: dlopen failed: library "/data/app-lib/HEROMORA.PasswordKeeper-1/libaot-System.Linq.dll.so" not found
+09-28 22:39:30.368 D/Mono    ( 6361): Config attempting to parse: 'System.Linq.dll.config'.
+09-28 22:39:30.368 D/Mono    ( 6361): Config attempting to parse: '/usr/local/etc/mono/assemblies/System.Linq/System.Linq.config'.
+09-28 22:39:30.368 D/Mono    ( 6361): Assembly Ref addref Java.Interop[0x81069e68] -> System.Linq[0x811b1cc8]: 2
+09-28 22:39:30.373 D/Mono    ( 6361): Image addref System.Core[0x811afc80] -> System.Core.dll[0x811af3e8]: 2
+09-28 22:39:30.374 D/Mono    ( 6361): Prepared to set up assembly 'System.Core' (System.Core.dll)
+09-28 22:39:30.374 D/Mono    ( 6361): Assembly System.Core[0x811afc80] added to domain RootDomain, ref_count=1
+09-28 22:39:30.374 D/Mono    ( 6361): AOT: image 'System.Core.dll.so' not found: dlopen failed: library "/data/app-lib/HEROMORA.PasswordKeeper-1/libaot-System.Core.dll.so" not found
+09-28 22:39:30.375 D/Mono    ( 6361): AOT: image '/usr/local/lib/mono/aot-cache/arm/System.Core.dll.so' not found: dlopen failed: library "/data/app-lib/HEROMORA.PasswordKeeper-1/libaot-System.Core.dll.so" not found
+09-28 22:39:30.375 D/Mono    ( 6361): Config attempting to parse: 'System.Core.dll.config'.
+09-28 22:39:30.375 D/Mono    ( 6361): Config attempting to parse: '/usr/local/etc/mono/assemblies/System.Core/System.Core.config'.
+09-28 22:39:30.375 D/Mono    ( 6361): Assembly Ref addref System.Linq[0x811b1cc8] -> System.Core[0x811afc80]: 2
+09-28 22:39:30.375 D/Mono    ( 6361): Assembly Ref addref System.Core[0x811afc80] -> mscorlib[0x7be3a428]: 9
+Loaded assembly: System.Linq.dll [External]
+Loaded assembly: System.Core.dll [External]
+09-28 22:39:30.392 D/Mono    ( 6361): Image addref System.Runtime.Extensions[0x811a2e00] -> System.Runtime.Extensions.dll[0x811a1748]: 2
+09-28 22:39:30.392 D/Mono    ( 6361): Prepared to set up assembly 'System.Runtime.Extensions' (System.Runtime.Extensions.dll)
+09-28 22:39:30.392 D/Mono    ( 6361): Assembly System.Runtime.Extensions[0x811a2e00] added to domain RootDomain, ref_count=1
+09-28 22:39:30.393 D/Mono    ( 6361): AOT: image 'System.Runtime.Extensions.dll.so' not found: dlopen failed: library "/data/app-lib/HEROMORA.PasswordKeeper-1/libaot-System.Runtime.Extensions.dll.so" not found
+09-28 22:39:30.393 D/Mono    ( 6361): AOT: image '/usr/local/lib/mono/aot-cache/arm/System.Runtime.Extensions.dll.so' not found: dlopen failed: library "/data/app-lib/HEROMORA.PasswordKeeper-1/libaot-System.Runtime.Extensions.dll.so" not found
+09-28 22:39:30.393 D/Mono    ( 6361): Config attempting to parse: 'System.Runtime.Extensions.dll.config'.
+09-28 22:39:30.393 D/Mono    ( 6361): Config attempting to parse: '/usr/local/etc/mono/assemblies/System.Runtime.Extensions/System.Runtime.Extensions.config'.
+09-28 22:39:30.393 D/Mono    ( 6361): Assembly Ref addref Java.Interop[0x81069e68] -> System.Runtime.Extensions[0x811a2e00]: 2
+Loaded assembly: System.Runtime.Extensions.dll [External]
+09-28 22:39:30.393 D/Mono    ( 6361): Assembly Ref addref System.Runtime.Extensions[0x811a2e00] -> mscorlib[0x7be3a428]: 10
+09-28 22:39:30.407 D/Mono    ( 6361): Image addref System.Reflection.Extensions[0x811c1508] -> System.Reflection.Extensions.dll[0x811c0850]: 2
+09-28 22:39:30.407 D/Mono    ( 6361): Prepared to set up assembly 'System.Reflection.Extensions' (System.Reflection.Extensions.dll)
+09-28 22:39:30.407 D/Mono    ( 6361): Assembly System.Reflection.Extensions[0x811c1508] added to domain RootDomain, ref_count=1
+09-28 22:39:30.408 D/Mono    ( 6361): AOT: image 'System.Reflection.Extensions.dll.so' not found: dlopen failed: library "/data/app-lib/HEROMORA.PasswordKeeper-1/libaot-System.Reflection.Extensions.dll.so" not found
+09-28 22:39:30.408 D/Mono    ( 6361): AOT: image '/usr/local/lib/mono/aot-cache/arm/System.Reflection.Extensions.dll.so' not found: dlopen failed: library "/data/app-lib/HEROMORA.PasswordKeeper-1/libaot-System.Reflection.Extensions.dll.so" not found
+09-28 22:39:30.408 D/Mono    ( 6361): Config attempting to parse: 'System.Reflection.Extensions.dll.config'.
+09-28 22:39:30.408 D/Mono    ( 6361): Config attempting to parse: '/usr/local/etc/mono/assemblies/System.Reflection.Extensions/System.Reflection.Extensions.config'.
+09-28 22:39:30.408 D/Mono    ( 6361): Assembly Ref addref Java.Interop[0x81069e68] -> System.Reflection.Extensions[0x811c1508]: 2
+09-28 22:39:30.408 D/Mono    ( 6361): Assembly Ref addref System.Reflection.Extensions[0x811c1508] -> mscorlib[0x7be3a428]: 11
+Loaded assembly: System.Reflection.Extensions.dll [External]
+09-28 22:39:30.432 D/Mono    ( 6361): Assembly Ref addref Mono.Android[0x8104da40] -> System.Core[0x811afc80]: 3
+09-28 22:39:30.432 D/Mono    ( 6361): DllImport searching in: '__Internal' ('(null)').
+09-28 22:39:30.432 D/Mono    ( 6361): Searching for 'monodroid_typemap_managed_to_java'.
+09-28 22:39:30.432 D/Mono    ( 6361): Probing 'monodroid_typemap_managed_to_java'.
+09-28 22:39:30.432 D/Mono    ( 6361): Found as 'monodroid_typemap_managed_to_java'.
+09-28 22:39:30.459 D/Mono    ( 6361): DllImport searching in: '__Internal' ('(null)').
+09-28 22:39:30.459 D/Mono    ( 6361): Searching for 'java_interop_jnienv_alloc_object'.
+09-28 22:39:30.459 D/Mono    ( 6361): Probing 'java_interop_jnienv_alloc_object'.
+09-28 22:39:30.459 D/Mono    ( 6361): Found as 'java_interop_jnienv_alloc_object'.
+InspectorDebugSession(4): HandleTargetEvent: TargetHitBreakpoint
+InspectorDebugSession(4): StateChange: EntryPointBreakpointRegistered -> EntryPointBreakpointHit
+InspectorDebugSession(4): AgentBridge.InjectAssembly: /storage/sdcard0/Android/data/HEROMORA.PasswordKeeper/files/.__override__/inspector-temp/Xamarin.Interactive.dll
+09-28 22:39:30.576 D/Mono    ( 6361): Assembly Loader probing location: '/storage/sdcard0/Android/data/HEROMORA.PasswordKeeper/files/.__override__/inspector-temp/Xamarin.Interactive.dll'.
+09-28 22:39:30.576 D/Mono    ( 6361): Image addref Xamarin.Interactive[0x811c9648] -> /storage/sdcard0/Android/data/HEROMORA.PasswordKeeper/files/.__override__/inspector-temp/Xamarin.Interactive.dll[0x811c7f78]: 2
+09-28 22:39:30.576 D/Mono    ( 6361): Prepared to set up assembly 'Xamarin.Interactive' (/storage/sdcard0/Android/data/HEROMORA.PasswordKeeper/files/.__override__/inspector-temp/Xamarin.Interactive.dll)
+09-28 22:39:30.576 D/Mono    ( 6361): Assembly Xamarin.Interactive[0x811c9648] added to domain RootDomain, ref_count=1
+09-28 22:39:30.578 D/Mono    ( 6361): AOT: image '/storage/sdcard0/Android/data/HEROMORA.PasswordKeeper/files/.__override__/inspector-temp/Xamarin.Interactive.dll.so' not found: dlopen failed: library "/data/app-lib/HEROMORA.PasswordKeeper-1/libaot-Xamarin.Interactive.dll.so" not found
+09-28 22:39:30.578 D/Mono    ( 6361): AOT: image '/usr/local/lib/mono/aot-cache/arm/Xamarin.Interactive.dll.so' not found: dlopen failed: library "/data/app-lib/HEROMORA.PasswordKeeper-1/libaot-Xamarin.Interactive.dll.so" not found
+09-28 22:39:30.579 D/Mono    ( 6361): Assembly Loader loaded assembly from location: '/storage/sdcard0/Android/data/HEROMORA.PasswordKeeper/files/.__override__/inspector-temp/Xamarin.Interactive.dll'.
+09-28 22:39:30.579 D/Mono    ( 6361): Config attempting to parse: '/storage/sdcard0/Android/data/HEROMORA.PasswordKeeper/files/.__override__/inspector-temp/Xamarin.Interactive.dll.config'.
+InspectorDebugSession(4): AgentBridge.InjectAssembly: /storage/sdcard0/Android/data/HEROMORA.PasswordKeeper/files/.__override__/inspector-temp/Xamarin.Interactive.Android.dll
+09-28 22:39:30.579 D/Mono    ( 6361): Config attempting to parse: '/usr/local/etc/mono/assemblies/Xamarin.Interactive/Xamarin.Interactive.config'.
+09-28 22:39:30.590 D/Mono    ( 6361): Assembly Loader probing location: '/storage/sdcard0/Android/data/HEROMORA.PasswordKeeper/files/.__override__/inspector-temp/Xamarin.Interactive.Android.dll'.
+09-28 22:39:30.591 D/Mono    ( 6361): Image addref Xamarin.Interactive.Android[0x811c8580] -> /storage/sdcard0/Android/data/HEROMORA.PasswordKeeper/files/.__override__/inspector-temp/Xamarin.Interactive.Android.dll[0x812039d0]: 2
+09-28 22:39:30.591 D/Mono    ( 6361): Prepared to set up assembly 'Xamarin.Interactive.Android' (/storage/sdcard0/Android/data/HEROMORA.PasswordKeeper/files/.__override__/inspector-temp/Xamarin.Interactive.Android.dll)
+09-28 22:39:30.591 D/Mono    ( 6361): Assembly Xamarin.Interactive.Android[0x811c8580] added to domain RootDomain, ref_count=1
+09-28 22:39:30.593 D/Mono    ( 6361): AOT: image '/storage/sdcard0/Android/data/HEROMORA.PasswordKeeper/files/.__override__/inspector-temp/Xamarin.Interactive.Android.dll.so' not found: dlopen failed: library "/data/app-lib/HEROMORA.PasswordKeeper-1/libaot-Xamarin.Interactive.Android.dll.so" not found
+09-28 22:39:30.593 D/Mono    ( 6361): AOT: image '/usr/local/lib/mono/aot-cache/arm/Xamarin.Interactive.Android.dll.so' not found: dlopen failed: library "/data/app-lib/HEROMORA.PasswordKeeper-1/libaot-Xamarin.Interactive.Android.dll.so" not found
+09-28 22:39:30.594 D/Mono    ( 6361): Assembly Loader loaded assembly from location: '/storage/sdcard0/Android/data/HEROMORA.PasswordKeeper/files/.__override__/inspector-temp/Xamarin.Interactive.Android.dll'.
+09-28 22:39:30.594 D/Mono    ( 6361): Config attempting to parse: '/storage/sdcard0/Android/data/HEROMORA.PasswordKeeper/files/.__override__/inspector-temp/Xamarin.Interactive.Android.dll.config'.
+InspectorDebugSession(4): StateChange: EntryPointBreakpointHit -> BreakdanceInvoking
+09-28 22:39:30.594 D/Mono    ( 6361): Config attempting to parse: '/usr/local/etc/mono/assemblies/Xamarin.Interactive.Android/Xamarin.Interactive.Android.config'.
+Loaded assembly: /storage/sdcard0/Android/data/HEROMORA.PasswordKeeper/files/.__override__/inspector-temp/Xamarin.Interactive.dll [External]
+Loaded assembly: /storage/sdcard0/Android/data/HEROMORA.PasswordKeeper/files/.__override__/inspector-temp/Xamarin.Interactive.Android.dll [External]
+09-28 22:39:30.640 D/Mono    ( 6361): Assembly Ref addref Xamarin.Interactive.Android[0x811c8580] -> mscorlib[0x7be3a428]: 12
+09-28 22:39:30.695 D/Mono    ( 6361): Assembly Ref addref Xamarin.Interactive.Android[0x811c8580] -> Xamarin.Interactive[0x811c9648]: 2
+09-28 22:39:30.715 D/Mono    ( 6361): Assembly Ref addref Xamarin.Interactive.Android[0x811c8580] -> Mono.Android[0x8104da40]: 2
+09-28 22:39:30.934 D/Mono    ( 6361): DllImport searching in: '__Internal' ('(null)').
+09-28 22:39:30.934 D/Mono    ( 6361): Searching for 'java_interop_jnienv_register_natives'.
+09-28 22:39:30.934 D/Mono    ( 6361): Probing 'java_interop_jnienv_register_natives'.
+09-28 22:39:30.934 D/Mono    ( 6361): Found as 'java_interop_jnienv_register_natives'.
+09-28 22:39:30.941 D/Mono    ( 6361): DllImport searching in: '__Internal' ('(null)').
+09-28 22:39:30.941 D/Mono    ( 6361): Searching for 'java_interop_jnienv_call_nonvirtual_void_method_a'.
+09-28 22:39:30.941 D/Mono    ( 6361): Probing 'java_interop_jnienv_call_nonvirtual_void_method_a'.
+09-28 22:39:30.941 D/Mono    ( 6361): Found as 'java_interop_jnienv_call_nonvirtual_void_method_a'.
+09-28 22:39:30.946 D/Mono    ( 6361): DllImport searching in: '__Internal' ('(null)').
+09-28 22:39:30.946 D/Mono    ( 6361): Searching for '_monodroid_gc_wait_for_bridge_processing'.
+09-28 22:39:30.946 D/Mono    ( 6361): Probing '_monodroid_gc_wait_for_bridge_processing'.
+09-28 22:39:30.946 D/Mono    ( 6361): Found as '_monodroid_gc_wait_for_bridge_processing'.
+09-28 22:39:30.951 D/Mono    ( 6361): DllImport searching in: '__Internal' ('(null)').
+09-28 22:39:30.951 D/Mono    ( 6361): Searching for 'java_interop_jnienv_is_same_object'.
+09-28 22:39:30.951 D/Mono    ( 6361): Probing 'java_interop_jnienv_is_same_object'.
+09-28 22:39:30.951 D/Mono    ( 6361): Found as 'java_interop_jnienv_is_same_object'.
+09-28 22:39:30.955 D/Mono    ( 6361): DllImport searching in: '__Internal' ('(null)').
+09-28 22:39:30.955 D/Mono    ( 6361): Searching for 'java_interop_jnienv_new_string'.
+09-28 22:39:30.955 D/Mono    ( 6361): Probing 'java_interop_jnienv_new_string'.
+09-28 22:39:30.955 D/Mono    ( 6361): Found as 'java_interop_jnienv_new_string'.
+09-28 22:39:30.957 D/Mono    ( 6361): DllImport searching in: '__Internal' ('(null)').
+09-28 22:39:30.957 D/Mono    ( 6361): Searching for 'java_interop_jnienv_get_static_field_id'.
+09-28 22:39:30.957 D/Mono    ( 6361): Probing 'java_interop_jnienv_get_static_field_id'.
+09-28 22:39:30.957 D/Mono    ( 6361): Found as 'java_interop_jnienv_get_static_field_id'.
+09-28 22:39:30.959 D/Mono    ( 6361): DllImport searching in: '__Internal' ('(null)').
+09-28 22:39:30.959 D/Mono    ( 6361): Searching for 'java_interop_jnienv_get_static_object_field'.
+09-28 22:39:30.959 D/Mono    ( 6361): Probing 'java_interop_jnienv_get_static_object_field'.
+09-28 22:39:30.959 D/Mono    ( 6361): Found as 'java_interop_jnienv_get_static_object_field'.
+Thread started:  #3
+InspectorDebugSession(4): HandleTargetEvent: ThreadStarted
+09-28 22:39:30.997 D/dalvikvm( 6361): threadid=13: interp stack at 0x81456000
+InspectorDebugSession(4): StateChange: BreakdanceInvoking -> BreakdanceStarted
+09-28 22:39:31.022 D/Mono    ( 6361): DllImport searching in: '__Internal' ('(null)').
+09-28 22:39:31.022 D/Mono    ( 6361): Searching for 'java_interop_jnienv_call_static_void_method_a'.
+09-28 22:39:31.022 D/Mono    ( 6361): Probing 'java_interop_jnienv_call_static_void_method_a'.
+09-28 22:39:31.022 D/Mono    ( 6361): Found as 'java_interop_jnienv_call_static_void_method_a'.
+09-28 22:39:31.026 D/ActivityThread( 6361): BIND_APPLICATION handled : 0 / AppBindData{appInfo=ApplicationInfo{4251a2c0 HEROMORA.PasswordKeeper}}
+09-28 22:39:31.027 D/Mono    ( 6361): Assembly Ref addref PasswordKeeper[0x80e42750] -> Mono.Android[0x8104da40]: 3
+09-28 22:39:31.081 D/Mono    ( 6361): DllImport searching in: '__Internal' ('(null)').
+09-28 22:39:31.081 D/Mono    ( 6361): Searching for 'java_interop_jnienv_get_array_length'.
+09-28 22:39:31.081 D/Mono    ( 6361): Probing 'java_interop_jnienv_get_array_length'.
+09-28 22:39:31.081 D/Mono    ( 6361): Found as 'java_interop_jnienv_get_array_length'.
+Loaded assembly: MonoDroidConstructors [External]
+09-28 22:39:31.156 D/Mono    ( 6361): Assembly Ref addref PasswordKeeper[0x80e42750] -> mscorlib[0x7be3a428]: 13
+09-28 22:39:31.167 V/ActivityThread( 6361): ActivityRecord{4251c320 token=android.os.BinderProxy@4251b958 {HEROMORA.PasswordKeeper/md52cbc3a718830e2d801c58d548c870e2f.PasswordEntranceActivity}}: app=android.app.Application@42522880, appName=HEROMORA.PasswordKeeper, pkg=HEROMORA.PasswordKeeper, comp={HEROMORA.PasswordKeeper/md52cbc3a718830e2d801c58d548c870e2f.PasswordEntranceActivity}, dir=/data/app/HEROMORA.PasswordKeeper-1.apk
+09-28 22:39:31.238 D/Mono    ( 6361): DllImport searching in: '__Internal' ('(null)').
+09-28 22:39:31.238 D/Mono    ( 6361): Searching for 'java_interop_jnienv_call_nonvirtual_object_method_a'.
+09-28 22:39:31.238 D/Mono    ( 6361): Probing 'java_interop_jnienv_call_nonvirtual_object_method_a'.
+09-28 22:39:31.238 D/Mono    ( 6361): Found as 'java_interop_jnienv_call_nonvirtual_object_method_a'.
+09-28 22:39:31.248 D/Mono    ( 6361): DllImport searching in: '__Internal' ('(null)').
+09-28 22:39:31.248 D/Mono    ( 6361): Searching for 'java_interop_jnienv_call_void_method_a'.
+09-28 22:39:31.248 D/Mono    ( 6361): Probing 'java_interop_jnienv_call_void_method_a'.
+09-28 22:39:31.248 D/Mono    ( 6361): Found as 'java_interop_jnienv_call_void_method_a'.
+09-28 22:39:31.251 V/ActivityThread( 6361): Performing resume of ActivityRecord{4251c320 token=android.os.BinderProxy@4251b958 {HEROMORA.PasswordKeeper/md52cbc3a718830e2d801c58d548c870e2f.PasswordEntranceActivity}} finished=false
+09-28 22:39:31.252 D/ActivityThread( 6361): ACT-AM_ON_RESUME_CALLED ActivityRecord{4251c320 token=android.os.BinderProxy@4251b958 {HEROMORA.PasswordKeeper/md52cbc3a718830e2d801c58d548c870e2f.PasswordEntranceActivity}}
+09-28 22:39:31.252 V/ActivityThread( 6361): Resume ActivityRecord{4251c320 token=android.os.BinderProxy@4251b958 {HEROMORA.PasswordKeeper/md52cbc3a718830e2d801c58d548c870e2f.PasswordEntranceActivity}} started activity: false, hideForNow: false, finished: false
+09-28 22:39:31.252 V/PhoneWindow( 6361): DecorView setVisiblity: visibility = 4 ,Parent =null, this =com.android.internal.policy.impl.PhoneWindow$DecorView{4252fe28 I.E..... R.....ID 0,0-0,0}
+09-28 22:39:31.256 V/ViewRootImpl( 6361): mApplyParallel = false, this = ViewRoot{425d28a8 ,ident = 0}
+09-28 22:39:31.259 V/ActivityThread( 6361): Resuming ActivityRecord{4251c320 token=android.os.BinderProxy@4251b958 {HEROMORA.PasswordKeeper/md52cbc3a718830e2d801c58d548c870e2f.PasswordEntranceActivity}} with isForward=true
+09-28 22:39:31.259 V/PhoneWindow( 6361): DecorView setVisiblity: visibility = 0 ,Parent =ViewRoot{425d28a8 HEROMORA.PasswordKeeper/md52cbc3a718830e2d801c58d548c870e2f.PasswordEntranceActivity,ident = 0}, this =com.android.internal.policy.impl.PhoneWindow$DecorView{4252fe28 V.E..... R.....ID 0,0-0,0}
+09-28 22:39:31.259 V/ActivityThread( 6361): Scheduling idle handler for ActivityRecord{4251c320 token=android.os.BinderProxy@4251b958 {HEROMORA.PasswordKeeper/md52cbc3a718830e2d801c58d548c870e2f.PasswordEntranceActivity}}
+09-28 22:39:31.259 D/ActivityThread( 6361): ACT-LAUNCH_ACTIVITY handled : 0 / ActivityRecord{4251c320 token=android.os.BinderProxy@4251b958 {HEROMORA.PasswordKeeper/md52cbc3a718830e2d801c58d548c870e2f.PasswordEntranceActivity}}
+09-28 22:39:31.274 D/dalvikvm( 6361): create interp thread : stack size=128KB
+09-28 22:39:31.274 D/dalvikvm( 6361): create new thread
+09-28 22:39:31.274 D/dalvikvm( 6361): new thread created
+09-28 22:39:31.274 D/dalvikvm( 6361): update thread list
+09-28 22:39:31.274 D/dalvikvm( 6361): threadid=14: interp stack at 0x81625000
+09-28 22:39:31.274 D/dalvikvm( 6361): threadid=14: created from interp
+09-28 22:39:31.274 D/dalvikvm( 6361): start new thread
+09-28 22:39:31.274 D/dalvikvm( 6361): threadid=14: notify debugger
+09-28 22:39:31.274 D/dalvikvm( 6361): threadid=14 (AsyncTask #1): calling run()
+09-28 22:39:31.278 D/dalvikvm( 6361): create interp thread : stack size=128KB
+09-28 22:39:31.278 D/dalvikvm( 6361): create new thread
+09-28 22:39:31.278 D/dalvikvm( 6361): new thread created
+09-28 22:39:31.278 D/dalvikvm( 6361): update thread list
+09-28 22:39:31.278 D/dalvikvm( 6361): threadid=15: interp stack at 0x81645000
+09-28 22:39:31.278 D/dalvikvm( 6361): threadid=15: created from interp
+09-28 22:39:31.278 D/dalvikvm( 6361): start new thread
+09-28 22:39:31.279 D/dalvikvm( 6361): threadid=15: notify debugger
+09-28 22:39:31.279 D/dalvikvm( 6361): threadid=15 (AsyncTask #2): calling run()
+09-28 22:39:31.342 D/MALI    ( 6361): MTK_CheckAppName:68: appName=HEROMORA.PasswordKeeper, acAppName=com.android.gallery3d
+09-28 22:39:31.342 D/MALI    ( 6361): MTK_CheckAppName:74: 0
+09-28 22:39:31.344 D/mali_winsys( 6361): new_window_surface returns 0x3000
+09-28 22:39:31.347 D/GraphicBuffer( 6361): register, handle(0x8140b0e8) (w:720 h:1280 s:720 f:0x1 u:0x000900)
+09-28 22:39:31.360 D/OpenGLRenderer( 6361): Enabling debug mode 0
+09-28 22:39:31.361 D/GraphicBuffer( 6361): register, handle(0x81408dd8) (w:768 h:768 s:768 f:0x1 u:0x000100)
+09-28 22:39:31.362 D/OpenGLRenderer( 6361): init AssetAtlas with map 0x425dcc08, count 100, binaries 0x82c28000, length 43368, programMap 0x425dce50, programCount 44
+09-28 22:39:31.364 V/Provider/Settings( 6361): get setting for user 0 by user 0 so skipping cache
+09-28 22:39:31.365 V/Provider/Settings( 6361): from db cache, name = safeinputmethod_on , value = null
+09-28 22:39:31.365 V/InputMethodManager( 6361): onWindowFocus: android.widget.EditText{42556b88 VFED..CL .F....ID 60,147-660,226 #7f05001d app:id/userLockBox} softInputMode=288 first=true flags=#1810100
+09-28 22:39:31.366 V/InputMethodManager( 6361): START INPUT: android.widget.EditText{42556b88 VFED..CL .F....ID 60,147-660,226 #7f05001d app:id/userLockBox} ic=com.android.internal.widget.EditableInputConnection@425de568 tba=android.view.inputmethod.EditorInfo@425de200 controlFlags=#107
+09-28 22:39:31.415 D/GraphicBuffer( 6361): register, handle(0x82eaf268) (w:720 h:1280 s:720 f:0x1 u:0x000900)
+09-28 22:39:31.880 D/GraphicBuffer( 6361): register, handle(0x82eafa50) (w:720 h:1280 s:720 f:0x1 u:0x000900)
+Thread started: <Thread Pool> #4
+InspectorDebugSession(4): HandleTargetEvent: ThreadStarted
+Thread started: <Thread Pool> #5
+InspectorDebugSession(4): HandleTargetEvent: ThreadStarted
+09-28 22:39:32.054 D/dalvikvm( 6361): threadid=16: interp stack at 0x82c69000
+09-28 22:39:32.055 D/dalvikvm( 6361): threadid=17: interp stack at 0x82c8b000
+09-28 22:39:32.055 D/Mono    ( 6361): [0x82e9eaa8] worker starting
+Thread started: <Thread Pool> #6
+InspectorDebugSession(4): HandleTargetEvent: ThreadStarted
+09-28 22:39:32.069 D/dalvikvm( 6361): threadid=18: interp stack at 0x82cb2000
+09-28 22:39:32.069 D/Mono    ( 6361): [0x832d9d60] worker starting
+Thread started: <Thread Pool> #7
+InspectorDebugSession(4): HandleTargetEvent: ThreadStarted
+09-28 22:39:32.085 D/dalvikvm( 6361): threadid=19: interp stack at 0x82cdb000
+09-28 22:39:32.085 D/Mono    ( 6361): [0x829a8b98] worker starting
+09-28 22:39:32.150 D/Mono    ( 6361): DllImport searching in: '__Internal' ('(null)').
+09-28 22:39:32.150 D/Mono    ( 6361): Searching for 'java_interop_jnienv_call_nonvirtual_boolean_method_a'.
+09-28 22:39:32.150 D/Mono    ( 6361): Probing 'java_interop_jnienv_call_nonvirtual_boolean_method_a'.
+09-28 22:39:32.150 D/Mono    ( 6361): Found as 'java_interop_jnienv_call_nonvirtual_boolean_method_a'.
+09-28 22:39:32.156 D/Mono    ( 6361): [0x82e9eaa8] hill climbing, change max number of threads 8
+09-28 22:39:32.377 D/GraphicBuffer( 6361): register, handle(0x82cda828) (w:720 h:1280 s:720 f:0x1 u:0x000900)
+09-28 22:39:32.817 I/View    ( 6361): Touch down dispatch to android.widget.EditText{42556b88 VFED..CL .F...... 60,147-660,226 #7f05001d app:id/userLockBox}, event = MotionEvent { action=ACTION_DOWN, id[0]=0, x[0]=331.45633, y[0]=38.659637, toolType[0]=TOOL_TYPE_FINGER, buttonState=0, metaState=0, flags=0x0, edgeFlags=0x0, pointerCount=1, historySize=0, eventTime=78526556, downTime=78526556, deviceId=2, source=0x1002 }
+09-28 22:39:32.848 I/View    ( 6361): Touch up dispatch to android.widget.EditText{42556b88 VFED..CL .F.P.... 60,147-660,226 #7f05001d app:id/userLockBox}, event = MotionEvent { action=ACTION_UP, id[0]=0, x[0]=331.45633, y[0]=38.659637, toolType[0]=TOOL_TYPE_FINGER, buttonState=0, metaState=0, flags=0x0, edgeFlags=0x0, pointerCount=1, historySize=0, eventTime=78526589, downTime=78526556, deviceId=2, source=0x1002 }
+09-28 22:39:35.277 I/View    ( 6361): Key down dispatch to android.widget.EditText{42556b88 VFED..CL .F...... 60,147-660,226 #7f05001d app:id/userLockBox}, event = KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_BACK, scanCode=158, metaState=0, flags=0x48, repeatCount=0, eventTime=78529015, downTime=78529015, deviceId=2, source=0x101 }
+09-28 22:39:35.280 V/Provider/Settings( 6361): get setting for user 0 by user 0 so skipping cache
+09-28 22:39:35.280 V/Provider/Settings( 6361): from db cache, name = auto_caps , value = null
+09-28 22:39:35.280 V/Provider/Settings( 6361): get setting for user 0 by user 0 so skipping cache
+09-28 22:39:35.280 V/Provider/Settings( 6361): from db cache, name = auto_replace , value = null
+09-28 22:39:35.280 V/Provider/Settings( 6361): get setting for user 0 by user 0 so skipping cache
+09-28 22:39:35.281 V/Provider/Settings( 6361): from db cache, name = auto_punctuate , value = null
+09-28 22:39:35.281 V/Provider/Settings( 6361): get setting for user 0 by user 0 so skipping cache
+09-28 22:39:35.281 V/Provider/Settings( 6361): from db cache, name = show_password , value = 0
+09-28 22:39:35.364 D/ActivityThread( 6361): ACT-AM_ON_PAUSE_CALLED ActivityRecord{4251c320 token=android.os.BinderProxy@4251b958 {HEROMORA.PasswordKeeper/md52cbc3a718830e2d801c58d548c870e2f.PasswordEntranceActivity}}
+09-28 22:39:35.371 D/ActivityThread( 6361): ACT-PAUSE_ACTIVITY_FINISHING handled : 0 / android.os.BinderProxy@4251b958
+09-28 22:39:37.572 D/OpenGLRenderer( 6361): Flushing caches (mode 0)
+09-28 22:39:37.576 D/GraphicBuffer( 6361): unregister, handle(0x8140b0e8) (w:720 h:1280 s:720 f:0x1 u:0x000900)
+09-28 22:39:37.576 D/GraphicBuffer( 6361): unregister, handle(0x82eaf268) (w:720 h:1280 s:720 f:0x1 u:0x000900)
+09-28 22:39:37.577 D/GraphicBuffer( 6361): unregister, handle(0x82eafa50) (w:720 h:1280 s:720 f:0x1 u:0x000900)
+09-28 22:39:37.577 D/GraphicBuffer( 6361): unregister, handle(0x82cda828) (w:720 h:1280 s:720 f:0x1 u:0x000900)
+09-28 22:39:37.990 D/OpenGLRenderer( 6361): Flushing caches (mode 1)
+09-28 22:39:38.006 D/OpenGLRenderer( 6361): Flushing caches (mode 0)
+09-28 22:39:38.012 D/ActivityThread( 6361): ACT-DESTROY_ACTIVITY handled : 1 / android.os.BinderProxy@4251b958
+09-28 22:39:44.135 V/ActivityThread( 6361): ActivityRecord{425f5038 token=android.os.BinderProxy@425f4670 {HEROMORA.PasswordKeeper/md52cbc3a718830e2d801c58d548c870e2f.PasswordEntranceActivity}}: app=android.app.Application@42522880, appName=HEROMORA.PasswordKeeper, pkg=HEROMORA.PasswordKeeper, comp={HEROMORA.PasswordKeeper/md52cbc3a718830e2d801c58d548c870e2f.PasswordEntranceActivity}, dir=/data/app/HEROMORA.PasswordKeeper-1.apk
+09-28 22:39:44.153 V/ActivityThread( 6361): Performing resume of ActivityRecord{425f5038 token=android.os.BinderProxy@425f4670 {HEROMORA.PasswordKeeper/md52cbc3a718830e2d801c58d548c870e2f.PasswordEntranceActivity}} finished=false
+09-28 22:39:44.153 D/ActivityThread( 6361): ACT-AM_ON_RESUME_CALLED ActivityRecord{425f5038 token=android.os.BinderProxy@425f4670 {HEROMORA.PasswordKeeper/md52cbc3a718830e2d801c58d548c870e2f.PasswordEntranceActivity}}
+09-28 22:39:44.153 V/ActivityThread( 6361): Resume ActivityRecord{425f5038 token=android.os.BinderProxy@425f4670 {HEROMORA.PasswordKeeper/md52cbc3a718830e2d801c58d548c870e2f.PasswordEntranceActivity}} started activity: false, hideForNow: false, finished: false
+09-28 22:39:44.153 V/PhoneWindow( 6361): DecorView setVisiblity: visibility = 4 ,Parent =null, this =com.android.internal.policy.impl.PhoneWindow$DecorView{425f7988 I.E..... R.....ID 0,0-0,0}
+09-28 22:39:44.154 V/ViewRootImpl( 6361): mApplyParallel = false, this = ViewRoot{426074b8 ,ident = 1}
+09-28 22:39:44.156 V/ActivityThread( 6361): Resuming ActivityRecord{425f5038 token=android.os.BinderProxy@425f4670 {HEROMORA.PasswordKeeper/md52cbc3a718830e2d801c58d548c870e2f.PasswordEntranceActivity}} with isForward=true
+09-28 22:39:44.156 V/PhoneWindow( 6361): DecorView setVisiblity: visibility = 0 ,Parent =ViewRoot{426074b8 HEROMORA.PasswordKeeper/md52cbc3a718830e2d801c58d548c870e2f.PasswordEntranceActivity,ident = 1}, this =com.android.internal.policy.impl.PhoneWindow$DecorView{425f7988 V.E..... R.....ID 0,0-0,0}
+09-28 22:39:44.156 V/ActivityThread( 6361): Scheduling idle handler for ActivityRecord{425f5038 token=android.os.BinderProxy@425f4670 {HEROMORA.PasswordKeeper/md52cbc3a718830e2d801c58d548c870e2f.PasswordEntranceActivity}}
+09-28 22:39:44.156 D/ActivityThread( 6361): ACT-LAUNCH_ACTIVITY handled : 0 / ActivityRecord{425f5038 token=android.os.BinderProxy@425f4670 {HEROMORA.PasswordKeeper/md52cbc3a718830e2d801c58d548c870e2f.PasswordEntranceActivity}}
+09-28 22:39:44.162 D/dalvikvm( 6361): create interp thread : stack size=128KB
+09-28 22:39:44.162 D/dalvikvm( 6361): create new thread
+09-28 22:39:44.162 D/dalvikvm( 6361): new thread created
+09-28 22:39:44.162 D/dalvikvm( 6361): update thread list
+09-28 22:39:44.162 D/dalvikvm( 6361): threadid=20: interp stack at 0x8261e000
+09-28 22:39:44.162 D/dalvikvm( 6361): threadid=20: created from interp
+09-28 22:39:44.163 D/dalvikvm( 6361): start new thread
+09-28 22:39:44.163 D/dalvikvm( 6361): threadid=20: notify debugger
+09-28 22:39:44.163 D/dalvikvm( 6361): threadid=20 (AsyncTask #3): calling run()
+09-28 22:39:44.164 D/dalvikvm( 6361): create interp thread : stack size=128KB
+09-28 22:39:44.164 D/dalvikvm( 6361): create new thread
+09-28 22:39:44.164 D/dalvikvm( 6361): new thread created
+09-28 22:39:44.164 D/dalvikvm( 6361): update thread list
+09-28 22:39:44.164 D/dalvikvm( 6361): threadid=21: interp stack at 0x8273c000
+09-28 22:39:44.164 D/dalvikvm( 6361): threadid=21: created from interp
+09-28 22:39:44.164 D/dalvikvm( 6361): start new thread
+09-28 22:39:44.164 D/dalvikvm( 6361): threadid=21: notify debugger
+09-28 22:39:44.164 D/dalvikvm( 6361): threadid=21 (AsyncTask #4): calling run()
+09-28 22:39:44.183 D/mali_winsys( 6361): new_window_surface returns 0x3000
+09-28 22:39:44.185 D/GraphicBuffer( 6361): register, handle(0x829b3cf8) (w:720 h:1280 s:720 f:0x1 u:0x000900)
+09-28 22:39:44.187 V/Provider/Settings( 6361): get setting for user 0 by user 0 so skipping cache
+09-28 22:39:44.188 V/Provider/Settings( 6361):  from settings cache , name = safeinputmethod_on , value = null
+09-28 22:39:44.188 V/InputMethodManager( 6361): onWindowFocus: android.widget.EditText{42601480 VFED..CL .F....ID 60,147-660,226 #7f05001d app:id/userLockBox} softInputMode=288 first=true flags=#1810100
+09-28 22:39:44.188 V/InputMethodManager( 6361): START INPUT: android.widget.EditText{42601480 VFED..CL .F....ID 60,147-660,226 #7f05001d app:id/userLockBox} ic=com.android.internal.widget.EditableInputConnection@42610018 tba=android.view.inputmethod.EditorInfo@4260ff08 controlFlags=#107
+09-28 22:39:44.213 D/GraphicBuffer( 6361): register, handle(0x82d1d738) (w:720 h:1280 s:720 f:0x1 u:0x000900)
+09-28 22:39:44.697 D/GraphicBuffer( 6361): register, handle(0x82e5bcd8) (w:720 h:1280 s:720 f:0x1 u:0x000900)
+09-28 22:39:45.194 D/GraphicBuffer( 6361): register, handle(0x829df050) (w:720 h:1280 s:720 f:0x1 u:0x000900)
+09-28 22:39:45.758 I/View    ( 6361): Key down dispatch to android.widget.EditText{42601480 VFED..CL .F...... 60,147-660,226 #7f05001d app:id/userLockBox}, event = KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_BACK, scanCode=158, metaState=0, flags=0x48, repeatCount=0, eventTime=78539497, downTime=78539497, deviceId=2, source=0x101 }
+09-28 22:39:45.860 D/ActivityThread( 6361): ACT-AM_ON_PAUSE_CALLED ActivityRecord{425f5038 token=android.os.BinderProxy@425f4670 {HEROMORA.PasswordKeeper/md52cbc3a718830e2d801c58d548c870e2f.PasswordEntranceActivity}}
+09-28 22:39:45.874 D/ActivityThread( 6361): ACT-PAUSE_ACTIVITY_FINISHING handled : 0 / android.os.BinderProxy@425f4670
+09-28 22:39:45.915 D/dalvikvm( 6361): threadid=22: interp stack at 0x828d0000
+09-28 22:39:45.915 D/dalvikvm( 6361): threadid=23: interp stack at 0x828f2000
+09-28 22:39:45.955 D/OpenGLRenderer( 6361): Flushing caches (mode 0)
+09-28 22:39:45.959 D/GraphicBuffer( 6361): unregister, handle(0x829b3cf8) (w:720 h:1280 s:720 f:0x1 u:0x000900)
+09-28 22:39:45.959 D/GraphicBuffer( 6361): unregister, handle(0x82d1d738) (w:720 h:1280 s:720 f:0x1 u:0x000900)
+09-28 22:39:45.959 D/GraphicBuffer( 6361): unregister, handle(0x82e5bcd8) (w:720 h:1280 s:720 f:0x1 u:0x000900)
+09-28 22:39:45.960 D/GraphicBuffer( 6361): unregister, handle(0x829df050) (w:720 h:1280 s:720 f:0x1 u:0x000900)
+09-28 22:39:46.350 D/OpenGLRenderer( 6361): Flushing caches (mode 1)
+09-28 22:39:46.351 D/OpenGLRenderer( 6361): Flushing caches (mode 0)
+09-28 22:39:46.353 D/ActivityThread( 6361): ACT-DESTROY_ACTIVITY handled : 1 / android.os.BinderProxy@425f4670
+InspectorDebugSession(4): Disposed

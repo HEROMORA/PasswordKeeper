@@ -26,6 +26,7 @@ namespace PasswordKeeper
         private Button CopyButton;
         private Button DeleteButton;
         private Password selectedPassword;
+        private bool Reveal = false;
 
         protected override void OnCreate(Bundle savedInstanceState)
         {
@@ -75,15 +76,32 @@ namespace PasswordKeeper
             var dialog = new AlertDialog.Builder(this);
             dialog.SetTitle("Confirmation");
             dialog.SetMessage("Are you sure you Want to Delete this Password ?");
-            dialog.SetNeutralButton("Cancel", delegate { });
+            dialog.SetNegativeButton("Cancel", delegate { });
             dialog.SetNeutralButton("Yes", delegate {
-
+                var db = new SQLiteConnection(AddPasswordActivity.dbPath);
+                var table = db.Table<Password>();
+                table.Delete(x => x.Id == selectedPassword.Id);
+                var intent = new Intent(this, typeof(PasswordListActivity));
+                this.Finish();
+                StartActivity(intent);
             });
+            dialog.Show();
         }
 
         private void RevealButton_Click(object sender, EventArgs e)
         {
-            PasswordTextView.Text = selectedPassword.PasswordValue;
+            if (Reveal == false)
+            {
+                RevealButton.Text = "Hide";
+                PasswordTextView.Text = selectedPassword.PasswordValue;
+                Reveal = true;
+            }
+            else if (Reveal == true)
+            {
+                RevealButton.Text = "Reveal";
+                PasswordTextView.Text = "****";
+                Reveal = false;
+            }
         }
 
         private void CopyButton_Click(object sender, EventArgs e)

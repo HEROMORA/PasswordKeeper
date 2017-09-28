@@ -5,7 +5,7 @@ using Android.Content;
 
 namespace PasswordKeeper
 {
-    [Activity(Label = "PasswordKeeper", MainLauncher = true ,Icon = "@drawable/icon")]
+    [Activity(Label = "PasswordKeeper" ,Icon = "@drawable/icon")]
     public class MainActivity : Activity
     {
         private Button allPasswords;
@@ -15,6 +15,7 @@ namespace PasswordKeeper
         {
             base.OnCreate(bundle);
             SetContentView (Resource.Layout.Main);
+            ActionBar.Hide();
 
             FindViews();
             HandleEvents();
