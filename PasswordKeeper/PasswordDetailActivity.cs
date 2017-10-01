@@ -24,6 +24,7 @@ namespace PasswordKeeper
         private TextView PasswordTextView;
         private Button RevealButton;
         private Button CopyButton;
+        private Button EditButton;
         private Button DeleteButton;
         private Password selectedPassword;
         private bool Reveal = false;
@@ -32,6 +33,7 @@ namespace PasswordKeeper
         {
             base.OnCreate(savedInstanceState);
             SetContentView(Resource.Layout.PasswordDetailView);
+            //ActionBar.Hide();
 
             //DB connection
 
@@ -55,6 +57,7 @@ namespace PasswordKeeper
             RevealButton = FindViewById<Button>(Resource.Id.revealButton);
             CopyButton = FindViewById<Button>(Resource.Id.copyButton);
             DeleteButton = FindViewById<Button>(Resource.Id.deleteButton);
+            EditButton = FindViewById<Button>(Resource.Id.editButton);
         }
 
         private void BindData()
@@ -68,7 +71,16 @@ namespace PasswordKeeper
         {
             CopyButton.Click += CopyButton_Click;
             RevealButton.Click += RevealButton_Click;
+            EditButton.Click += EditButton_Click;
             DeleteButton.Click += DeleteButton_Click;
+        }
+
+        private void EditButton_Click(object sender, EventArgs e)
+        {
+            var intent = new Intent(this, typeof(PasswordEditActivity));
+            intent.PutExtra("editpasswordid", selectedPassword.Id);
+            Finish();
+            StartActivity(intent);
         }
 
         private void DeleteButton_Click(object sender, EventArgs e)

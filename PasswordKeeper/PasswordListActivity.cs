@@ -35,7 +35,7 @@ namespace PasswordKeeper
                 var table = db.Table<Password>();
                 items = table.AsParallel().ToList();
                 passwordList.Adapter = new PasswordListAdapter(items, this);
-
+                passwordList.FastScrollEnabled = true;
                 passwordList.ItemClick += PasswordList_ItemClick;
             }
             catch 
